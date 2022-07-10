@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b144a01d-24f2-4583-8bb9-b0064653fb1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/asserts/20220228_182243.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/3bf2e921-2b4f-42f7-9d5b-b277a1b47dbe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/Css.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/Facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/MyLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/MySql.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/Telegram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/Whatsapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/css.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/email_gmail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/figma Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/hibernete.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/html.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/intellij-idea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/post-box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/teli.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +79,9 @@
       <workItem from="1657184795832" duration="486000" />
       <workItem from="1657185844515" duration="1945000" />
       <workItem from="1657199940100" duration="701000" />
-      <workItem from="1657205228642" duration="2184000" />
+      <workItem from="1657205228642" duration="3769000" />
+      <workItem from="1657429728429" duration="11244000" />
+      <workItem from="1657455249291" duration="3774000" />
     </task>
     <servers />
   </component>
