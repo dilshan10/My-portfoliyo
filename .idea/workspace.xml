@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b144a01d-24f2-4583-8bb9-b0064653fb1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/asserts/GitHub-Logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -29,7 +28,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/asserts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ORM" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -64,7 +66,13 @@
       <workItem from="1657199940100" duration="701000" />
       <workItem from="1657205228642" duration="3769000" />
       <workItem from="1657429728429" duration="11244000" />
-      <workItem from="1657455249291" duration="8194000" />
+      <workItem from="1657455249291" duration="8984000" />
+      <workItem from="1657507309609" duration="2416000" />
+      <workItem from="1657722800877" duration="1230000" />
+      <workItem from="1657963024600" duration="1060000" />
+      <workItem from="1657976175083" duration="2362000" />
+      <workItem from="1658043506413" duration="615000" />
+      <workItem from="1658065846043" duration="752000" />
     </task>
     <servers />
   </component>
