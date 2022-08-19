@@ -8,12 +8,35 @@
         main{
             height: 100vh;
             width: 100vw;
-            border: 1px solid red;
             position: absolute;
         }
         main>section{
+            position: absolute;
             height: 50vh;
             width: 50vw;
+        }
+        main>section>div{
+            background: white;
+            border-radius: 100%;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        main>section>div>div{
+            width: 50%;
+            height: 50%;
+            background: red;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
         }
         main>section:nth-child(1){
             background: red;
@@ -27,7 +50,6 @@
         }
         main>section:nth-child(3){
             background: orange;
-            position: absolute;
             right: 0;
             top: 0;
         }
@@ -37,14 +59,115 @@
             right: 0;
             bottom: 0;
         }
+        main>div:first-of-type{
+            height: 100px;
+            width: 100px;
+            background: white;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        main>div:first-of-type>div{
+            width: 50%;
+            height: 50%;
+            background: red;
+            border-radius: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+        main>div:nth-child(6),main>div:nth-child(7),main>div:nth-child(8),main>div:nth-child(9){
+            height: 100px;
+            width: 100px;
+            border:2px solid white;
+            background: white;
+            position: absolute;
+        }
+        main>div:nth-child(6){
+            left: 0;
+            top: 0;
+            border-bottom-right-radius: 100%;
+        }
+        main>div:nth-child(7){
+            right: 0;
+            top: 0;
+            border-bottom-left-radius: 100%;
+        }
+        main>div:nth-child(8){
+            right: 0;
+            bottom: 0;
+            border-top-left-radius: 100%;
+        }
+        main>div:nth-child(9){
+            left: 0;
+            bottom: 0;
+            border-top-right-radius: 100%;
+        }
+        main>div:nth-child(10),main>div:nth-child(11){
+            height: 80px;
+            width: 150px;
+            background: white;
+            position: absolute;
+        }
+        main>div:nth-child(10){
+            right: 0;
+            left: 0;
+            top: 0;
+            margin: auto;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+        }
+        main>div:nth-child(11){
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
+        }
     </style>
 </head>
 <body>
     <main>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section>
+            <div>
+                <div></div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div></div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div></div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div></div>
+            </div>
+        </section>
+
+        <!--Div for Center circle-->
+        <div>
+            <div></div>
+        </div>
+        <!---->
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
     </main>
 </body>
 </html>
