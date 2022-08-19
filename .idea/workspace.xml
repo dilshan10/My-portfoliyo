@@ -2,36 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b144a01d-24f2-4583-8bb9-b0064653fb1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/pdf/Assignment 02.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/CSS/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/20220228_182243.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/20220228_182243.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/268360047_1391465557978657_3920844286985635606_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/268360047_1391465557978657_3920844286985635606_n.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/3bf2e921-2b4f-42f7-9d5b-b277a1b47dbe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/3bf2e921-2b4f-42f7-9d5b-b277a1b47dbe.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/CSS.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/CSS.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/Facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/Facebook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/Full _Cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/Full _Cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/Gimp.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/Gimp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/GitHub-Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/GitHub-Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/HTML.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/HTML.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/MyLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/MyLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/MySql.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/MySql.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/Service2.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/Service2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/Telegram.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/Telegram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/Whatsapp.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/Whatsapp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/email_gmail.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/email_gmail.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/figma Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/figma Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/hibernete.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/hibernete.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/instagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/intellij-idea.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/intellij-idea.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/java.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/java.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/javascript.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/javascript.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/linkedin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/post-box.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/post-box.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/pr.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/pr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/service1.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/service1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/service3.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/service3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/teli.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/imges/teli.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigments/assigments.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/CSS/case_1/case_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -72,22 +47,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/asserts/CSS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\imges" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\CSS" />
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\pdf" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\video" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\adoi" />
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts" />
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\.idea\asserts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\imges" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -140,6 +115,10 @@
       <workItem from="1659063965470" duration="10886000" />
       <workItem from="1659321693441" duration="11198000" />
       <workItem from="1659456349344" duration="4984000" />
+      <workItem from="1659634994027" duration="94000" />
+      <workItem from="1659668614459" duration="2318000" />
+      <workItem from="1659700478928" duration="281000" />
+      <workItem from="1660876956095" duration="2826000" />
     </task>
     <servers />
   </component>

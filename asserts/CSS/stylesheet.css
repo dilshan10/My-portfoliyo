@@ -24,3 +24,24 @@ h1{
 #hey{
     color: red;
 }
+#hey:after{
+    content: "👋👋";
+}
+#btnabme:active{
+    color: red;
+}
+#btnskil:active{
+    color: red;
+}
+#btnser:active{
+    color: red;
+}
+#btnact:active{
+    color: red;
+}
+#btngallery:active{
+    color: red;
+}
+#btncon:active{
+    color: red;
+}
