@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS case 03</title>
+    <style>
+        main{
+            position: absolute;
+        }
+        main>section{
+            width: 98vw;
+            height: 500px;
+        }
+        main>div{
+            background: red;
+            height: 150px;
+            width: 150px;
+            border-radius: 100%;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        main>section>div{
+            background: deeppink;
+            width: 149px;
+            height: 149px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            border-radius: 100%;
+        }
+        main>section>div>h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div><h1>Hellow</h1></div>
+        </section>
+        <section>
+            <div><h1>Hellow</h1></div>
+        </section>
+        <section>
+            <div><h1>Hellow</h1></div>
+        </section>
+        <section>
+            <div><h1>Hellow</h1></div>
+        </section>
+        <div></div>
+    </main>
+</body>
+</html>
