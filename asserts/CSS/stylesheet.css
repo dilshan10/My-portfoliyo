@@ -45,3 +45,15 @@ h1{
 #btncon:active{
     color: red;
 }
+main>a>div{
+    height: 50px;
+    width: 50px;
+    background: blueviolet;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+footer>img{
+    align-content: center;
+}

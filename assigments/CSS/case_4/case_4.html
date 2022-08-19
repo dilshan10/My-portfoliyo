@@ -5,6 +5,24 @@
     <title>CSS case 04</title>
 
     <style>
+        main>section{
+            width: 98vw;
+            height: 500px;
+        }
+        main>section:nth-child(4){
+            height: 650px;
+        }
+        main>section>header{
+            position: sticky;
+            top: 0;
+        }
+        main>section>p{
+            text-align: center;
+            font-size: 110px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
         main>section:nth-child(1)>header{
             background: red;
         }
@@ -23,23 +41,27 @@
     <main>
         <section>
             <header>
-                <h1>helow</h1>
+                <h1>Card 01</h1>
             </header>
+                <p>Hello</p>
         </section>
         <section>
             <header>
-                <h1>helow</h1>
+                <h1>Card 02</h1>
             </header>
+            <p>Hello</p>
         </section>
         <section>
             <header>
-                <h1>helow</h1>
+                <h1>Card 03</h1>
             </header>
+            <p>Hello</p>
         </section>
         <section>
             <header>
-                <h1>helow</h1>
+                <h1>Card 04</h1>
             </header>
+            <p>Hello</p>
         </section>
     </main>
 </body>
