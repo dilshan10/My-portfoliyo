@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS case 03</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <style>
-        main{
-            position: absolute;
-        }
         main>section{
-            width: 98vw;
-            height: 500px;
+            width: 100vw;
+            height: 100vh;
+            position: relative;
         }
-        main>div{
-            background: red;
+        main>div:nth-child(5){
+            position: absolute;
+            border: 10px solid red;
             height: 150px;
             width: 150px;
             border-radius: 100%;
@@ -23,11 +23,24 @@
             right: 0;
             margin: auto;
         }
+        main>div:nth-child(6){
+            position: absolute;
+            border: 10px solid gray;
+            height: 170px;
+            width: 170px;
+            border-radius: 100%;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
         main>section>div{
-            background: deeppink;
+            position: absolute;
+            background: purple;
             width: 149px;
             height: 149px;
-            position: absolute;
             top: 0;
             bottom: 0;
             left: 0;
@@ -36,24 +49,31 @@
             border-radius: 100%;
         }
         main>section>div>h1{
+            position: absolute;
+            text-align: center;
+            top: 35%;
+            left: 25%;
 
+            color: white;
+            margin: auto;
         }
     </style>
 </head>
 <body>
     <main>
         <section>
-            <div><h1>Hellow</h1></div>
+            <div><h1>Hello</h1></div>
         </section>
         <section>
-            <div><h1>Hellow</h1></div>
+            <div><h1>Hello</h1></div>
         </section>
         <section>
-            <div><h1>Hellow</h1></div>
+            <div><h1>Hello</h1></div>
         </section>
         <section>
-            <div><h1>Hellow</h1></div>
+            <div><h1>Hello</h1></div>
         </section>
+        <div></div>
         <div></div>
     </main>
 </body>
