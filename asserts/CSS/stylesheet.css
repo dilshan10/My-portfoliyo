@@ -1,59 +1,51 @@
-hr{
-    color: #24FF00;
+header:first-of-type{
+    background: #73A24E;
+    width: 98vw;
+    height: 40px;
+    position: relative;
 }
-h1{
-    font-size: 40px;
+header>img{
+    position: absolute;
+    height: 40px;
+    left: 5px;
 }
-.hedinSect{
-    background-color: #73A24E;
+header>nav>ul{
+    list-style: none;
+    position: absolute;
+    right: 1%;
 }
-#post{
-    height:5%;
-    width:5%;
+header>nav>ul>li{
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+    border-right: 2px solid white;
 }
-.footset{
-    background-color: #928989;
+header>nav>ul>li>a{
+    color: white;
+    text-decoration: none;
 }
-#AbMe{
+header>nav>ul>li:hover a{
+    color: red;
+}
+header>nav>ul>li>a>i{
+    margin-right: 10px;
+}
+main>section:nth-child(1)>img{
+    width: 98vw;
+    height: 94vh;
+}
+main>section:nth-child(2)>header{
+    width: 98vw;
+    height: 40px;
+}
+main>section:nth-child(2)>header>h1{
+    color: black;
+}
+main>section:nth-child(2)>section>p:nth-child(1){
+    font-size: 20px;
+    color: red;
+}
+main>section:nth-child(2)>section>article:nth-child(2)>p{
     text-align: center;
-}
-#uplogo{
-    width :4%;
-    height:4%;
-}
-#hey{
-    color: red;
-}
-#hey:after{
-    content: "👋👋";
-}
-#btnabme:active{
-    color: red;
-}
-#btnskil:active{
-    color: red;
-}
-#btnser:active{
-    color: red;
-}
-#btnact:active{
-    color: red;
-}
-#btngallery:active{
-    color: red;
-}
-#btncon:active{
-    color: red;
-}
-main>a>div{
-    height: 50px;
-    width: 50px;
-    background: blueviolet;
-    border-radius: 100%;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
-footer>img{
-    align-content: center;
 }
