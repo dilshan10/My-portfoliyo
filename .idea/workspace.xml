@@ -4,6 +4,34 @@
     <list default="true" id="b144a01d-24f2-4583-8bb9-b0064653fb1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/20220228_182243.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/20220228_182243.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/268360047_1391465557978657_3920844286985635606_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/268360047_1391465557978657_3920844286985635606_n.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/3bf2e921-2b4f-42f7-9d5b-b277a1b47dbe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/3bf2e921-2b4f-42f7-9d5b-b277a1b47dbe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/CSS.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/CSS.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/Facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/Facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/Full _Cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/Full _Cover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/Gimp.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/Gimp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/GitHub-Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/GitHub-Logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/HTML.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/HTML.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/MyLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/MyLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/MySql.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/MySql.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/Service2.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/Service2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/Telegram.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/Telegram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/Whatsapp.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/Whatsapp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/email_gmail.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/email_gmail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/figma Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/figma Logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/hibernete.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/hibernete.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/instagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/intellij-idea.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/intellij-idea.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/java.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/java.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/javascript.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/javascript.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/linkedin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/post-box.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/post-box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/pr.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/pr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/service1.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/service1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/service3.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/service3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/imges/teli.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/teli.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigments/CSS/case_2/case_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/CSS/case_2/case_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -132,7 +160,10 @@
       <workItem from="1661264242139" duration="572000" />
       <workItem from="1661275734154" duration="8081000" />
       <workItem from="1661332204262" duration="14754000" />
-      <workItem from="1661362367201" duration="3652000" />
+      <workItem from="1661362367201" duration="4354000" />
+      <workItem from="1661411209771" duration="2455000" />
+      <workItem from="1661433607617" duration="3577000" />
+      <workItem from="1661446622222" duration="7122000" />
     </task>
     <servers />
   </component>
