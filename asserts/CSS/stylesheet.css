@@ -63,8 +63,8 @@ main>section:nth-child(3){
 main>section:nth-child(3)>section:nth-child(2){
     height: 120px;
     display: flex;
-    align-items: center;/* Flex Container Y axis*/ /* flex-start (Default) / center / flex-end*/
-    justify-content: space-around; /* Flex container X axis*/ /* center / flex-start / flex-end / space-evenly / space-around / space-between */
+    align-items: center;
+    justify-content: space-around;
 }
 main>section:nth-child(3)>section:nth-child(2)>div>img{
     height: 100px;
@@ -74,6 +74,12 @@ main>section:nth-child(3)>section:nth-child(2)>div{
     height: 100px;
     width: 100px;
     border: 1px solid red;
+}
+main>section:nth-child(3)>section:nth-child(3){
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 main>section:nth-child(3)>section:nth-child(3)>div>img{
     height: 100px;
@@ -90,15 +96,68 @@ main>section:nth-child(4)>section:nth-child(2){
     height: 200px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 main>section:nth-child(4)>section:nth-child(2)>div{
     height:180px;
     width: 180px;
     margin-top: 20px;
+
 }
 main>section:nth-child(4)>section:nth-child(2)>div>img{
     height:180px;
+    border: 1px solid red;
+}
+/*------------------------------------------------------------------------*/
+/*Fifth Section in main*/
+main>section:nth-child(5){
+    height: 100vh;
+    width: 98vw;
+}
+/*------------------------------------------------------------------------*/
+/*sixth section in main*/
+main>section:nth-child(6)>section:nth-child(2){
+    width: 98vw;
+    height: 160vh;
+    display: grid;
+    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: repeat(5,1fr);
+    gap: 9px;
+}
+main>section:nth-child(6)>section:nth-child(2)>div{
+    border: 1px solid red;
+}
+main>section:nth-child(6)>section:nth-child(2)>div:nth-child(1){
+    grid-column: 1/4;
+    grid-row: 1/3;
+    background: url("../images/3bf2e921-2b4f-42f7-9d5b-b277a1b47dbe.jpg");
+    background-size: cover;
+}
+main>section:nth-child(6)>section:nth-child(2)>div:nth-child(2){
+    grid-column: 4/6;
+    grid-row: 1/5;
+    background:none;
+    background-size: cover;
+}
+main>section:nth-child(6)>section:nth-child(2)>div:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 3/5;
+    background-size: cover;
+}
+main>section:nth-child(6)>section:nth-child(2)>div:nth-child(4){
+    grid-column: 2/4;
+    grid-row: 3/5;
+    background-size: cover;
+}
+main>section:nth-child(6)>section:nth-child(2)>div:nth-child(5){
+    grid-column: 1/3;
+    grid-row: 5/7;
+    background-size: cover;
+}
+main>section:nth-child(6)>section:nth-child(2)>div:nth-child(6){
+    grid-column: 3/7;
+    grid-row: 5/7;
+    background-size: cover;
 }
 /*------------------------------------------------------------------------*/
 /*Div in main*/
