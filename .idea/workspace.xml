@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b144a01d-24f2-4583-8bb9-b0064653fb1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/Coyote-animal-sentience-research.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/Wildlife_at_Maasai_Mara_(Lion).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/animals_old_picture_high_res.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/images.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/images2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/index.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/index2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/index3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/index4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/index6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/lamb-iStock-665494268-16x9-e1559777676675-1200x675.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/wild_and_wonderful_asian_animals_header_1140.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/case_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_6/asserts/images/Coyote-animal-sentience-research.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_6/asserts/images/Wildlife_at_Maasai_Mara_(Lion).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_6/asserts/images/animals_old_picture_high_res.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_6/asserts/images/images.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_6/asserts/images/images2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_6/asserts/images/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_6/asserts/images/index2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_6/asserts/images/index3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_6/asserts/images/index4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_6/asserts/images/index6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_6/asserts/images/lamb-iStock-665494268-16x9-e1559777676675-1200x675.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_6/asserts/images/wild_and_wonderful_asian_animals_header_1140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_6/case_6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigments/CSS/case_5/case_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/CSS/case_5/case_5.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assigments/CSS/case_6" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -68,11 +67,11 @@
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\imges" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\case_6" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\case_5\asserts\images" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\case_5\asserts" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\case_2\asserts\fonts" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\fonts" />
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\case_2\asserts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -149,7 +148,7 @@
       <workItem from="1661411209771" duration="2455000" />
       <workItem from="1661433607617" duration="3577000" />
       <workItem from="1661446622222" duration="7336000" />
-      <workItem from="1661481915214" duration="5465000" />
+      <workItem from="1661481915214" duration="8138000" />
     </task>
     <servers />
   </component>
