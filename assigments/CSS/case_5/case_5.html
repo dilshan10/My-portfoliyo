@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS case 04</title>
+    <style>
+        main>section{
+            border: 2px solid black;
+            width: 98vw;
+            height: 100vh;
+            display: grid;
+            grid-template-rows: repeat(3,1fr);
+            grid-template-columns: repeat(4,1fr);
+        }
+        main>section>div{
+            border: 1px solid red;
+            background-size: cover;
+        }
+        main>section>div>img{
+            width: calc(100%);
+            height: calc(100%);
+        }
+    </style>
+</head>
+<body>
+<main>
+    <section>
+        <div><img src="asserts/images/Coyote-animal-sentience-research.jpg"></div>
+        <div><img src="asserts/images/images.jpg"></div>
+        <div><img src="asserts/images/images2.jpg"></div>
+        <div><img src="asserts/images/index.jpg"></div>
+        <div><img src="asserts/images/index2.jpg"></div>
+        <div><img src="asserts/images/index3.jpg"></div>
+        <div><img src="asserts/images/index4.jpg"></div>
+        <div><img src="asserts/images/index6.jpg"></div>
+        <div><img src="asserts/images/lamb-iStock-665494268-16x9-e1559777676675-1200x675.jpg"></div>
+        <div><img src="asserts/images/wild_and_wonderful_asian_animals_header_1140.jpg"></div>
+        <div><img src="asserts/images/Wildlife_at_Maasai_Mara_(Lion).jpg"></div>
+        <div><img src="asserts/images/animals_old_picture_high_res.jpeg"></div>
+    </section>
+</main>
+</body>
+</html>

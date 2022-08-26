@@ -2,36 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b144a01d-24f2-4583-8bb9-b0064653fb1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/Coyote-animal-sentience-research.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/Wildlife_at_Maasai_Mara_(Lion).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/animals_old_picture_high_res.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/images.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/images2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/index2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/index3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/index4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/index6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/lamb-iStock-665494268-16x9-e1559777676675-1200x675.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images/wild_and_wonderful_asian_animals_header_1140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/case_5/case_5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/20220228_182243.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/20220228_182243.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/268360047_1391465557978657_3920844286985635606_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/268360047_1391465557978657_3920844286985635606_n.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/3bf2e921-2b4f-42f7-9d5b-b277a1b47dbe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/3bf2e921-2b4f-42f7-9d5b-b277a1b47dbe.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/CSS.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/CSS.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/Facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/Facebook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/Full _Cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/Full _Cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/Gimp.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/Gimp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/GitHub-Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/GitHub-Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/HTML.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/HTML.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/MyLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/MyLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/MySql.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/MySql.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/Service2.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/Service2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/Telegram.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/Telegram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/Whatsapp.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/Whatsapp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/email_gmail.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/email_gmail.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/figma Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/figma Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/hibernete.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/hibernete.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/instagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/intellij-idea.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/intellij-idea.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/java.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/java.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/javascript.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/javascript.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/linkedin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/post-box.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/post-box.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/pr.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/pr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/service1.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/service1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/service3.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/service3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/imges/teli.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/teli.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/CSS/case_2/case_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/CSS/case_2/case_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,22 +57,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assigments/CSS/case_2/asserts/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assigments/CSS/case_5/asserts/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\imges" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\case_5\asserts\images" />
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\case_5\asserts" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\case_2\asserts\fonts" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\fonts" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\case_2\asserts" />
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\case_3\css" />
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\CSS" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\imges" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -163,7 +148,8 @@
       <workItem from="1661362367201" duration="4354000" />
       <workItem from="1661411209771" duration="2455000" />
       <workItem from="1661433607617" duration="3577000" />
-      <workItem from="1661446622222" duration="7122000" />
+      <workItem from="1661446622222" duration="7336000" />
+      <workItem from="1661481915214" duration="5465000" />
     </task>
     <servers />
   </component>
