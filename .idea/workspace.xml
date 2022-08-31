@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b144a01d-24f2-4583-8bb9-b0064653fb1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/asserts/images/891ac053-534d-4bff-ac9a-56f55a890335.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/images/IMG-20200930-WA00h04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/images/a9219258-fa1a-42ae-8f5d-ee32f205786f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/images/cov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/inclass Case.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/CSS/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/CSS/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/images/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/arrow.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,23 +50,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/asserts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/asserts/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo" />
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\imges" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\images" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\case_6" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\case_5\asserts\images" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\case_5\asserts" />
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\case_2\asserts\fonts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo" />
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\imges" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -140,7 +145,12 @@
       <workItem from="1661446622222" duration="7336000" />
       <workItem from="1661481915214" duration="9054000" />
       <workItem from="1661511104649" duration="7965000" />
-      <workItem from="1661532840703" duration="1807000" />
+      <workItem from="1661532840703" duration="2278000" />
+      <workItem from="1661618391235" duration="833000" />
+      <workItem from="1661659440748" duration="7964000" />
+      <workItem from="1661740935226" duration="4219000" />
+      <workItem from="1661856802479" duration="1551000" />
+      <workItem from="1661940290935" duration="17330000" />
     </task>
     <servers />
   </component>
