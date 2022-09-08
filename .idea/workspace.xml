@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b144a01d-24f2-4583-8bb9-b0064653fb1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/Animations/case_2/case_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/Animations/case_3/asserts/giant-panda-eating_16x9.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/Animations/case_3/asserts/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/Animations/case_3/asserts/subordinate-meerkat-pack.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/Animations/case_3/asserts/tiger_laying_hero_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/Animations/case_3/case_3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +41,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2BbplrUr4erT8V5MWwtR2RWc5dU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -148,7 +155,7 @@
       <workItem from="1662017804686" duration="3756000" />
       <workItem from="1662115123198" duration="10407000" />
       <workItem from="1662213790317" duration="2821000" />
-      <workItem from="1662622368591" duration="14216000" />
+      <workItem from="1662622368591" duration="18531000" />
     </task>
     <servers />
   </component>
@@ -167,5 +174,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
