@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case-01</title>
+    <style>
+        main>section:nth-child(1)>div{
+            width: 250px;
+            height: 100px;
+            background: red;
+            border-radius: 20px;
+            animation-name: MY-ANIMATION;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+        }
+        @keyframes MY-ANIMATION {
+            0%{
+                background: #ff0303;
+                margin: 0 0 0 0;
+            }
+            25%{
+                background: #fff703;
+                margin: 0 0 0 80vw;
+            }
+            50%{
+                background: #3aff03;
+                margin: 80vh 0 0 80vw;
+            }
+            75%{
+                background: #03fffb;
+                margin: 80vh 0 0 0;
+            }
+            100%{
+                background: #0325ff;
+                margin: 0 0 0 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div></div>
+        </section>
+    </main>
+</body>
+</html>
