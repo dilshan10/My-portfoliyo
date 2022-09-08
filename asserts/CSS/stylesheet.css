@@ -58,7 +58,7 @@ main>section:nth-child(2)>article>p{
 /*------------------------------------------------------------------------*/
 /*Third Section inb main*/
 main>section:nth-child(3){
-    height: 270px;
+    height: 290px;
 }
 main>section:nth-child(3)>section:nth-child(2){
     height: 120px;
