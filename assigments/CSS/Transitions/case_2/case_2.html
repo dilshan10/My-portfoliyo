@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case_02</title>
+    <style>
+        body{
+            background: blue;
+        }
+        main>section:nth-child(1)>div:nth-child(1){
+            height: 200px;
+            width: 200px;
+            background: gray;
+            border-radius: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            border: 10px solid white;
+            border-top: 10px solid red;
+        }
+        main>section:nth-child(1)>div:nth-child(1):hover{
+            transform: rotate(360deg);
+            transition: all 2s;
+        }
+        main>section:nth-child(1)>div:nth-child(1)>h1{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: max-content;
+            height: max-content;
+            color: white;
+        }
+        main>section:nth-child(1)>div:nth-child(1):hover>h1{
+            transform: rotate(-360deg);
+            transition: all 2s;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div>
+                <h1>
+                    RWAD
+                </h1>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
