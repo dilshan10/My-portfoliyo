@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b144a01d-24f2-4583-8bb9-b0064653fb1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/Animations/case_3/asserts/giant-panda-eating_16x9.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/Animations/case_3/asserts/index.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/Animations/case_3/asserts/subordinate-meerkat-pack.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/Animations/case_3/asserts/tiger_laying_hero_background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/Animations/case_3/case_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Css/Css.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/CSS/Animations/case_4/case_4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,11 +49,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assigments/CSS/Transitions/case_1" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -91,6 +92,9 @@
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -155,7 +159,12 @@
       <workItem from="1662017804686" duration="3756000" />
       <workItem from="1662115123198" duration="10407000" />
       <workItem from="1662213790317" duration="2821000" />
-      <workItem from="1662622368591" duration="18531000" />
+      <workItem from="1662622368591" duration="19325000" />
+      <workItem from="1662693634005" duration="923000" />
+      <workItem from="1662729789520" duration="1555000" />
+      <workItem from="1662749203601" duration="31000" />
+      <workItem from="1662950488438" duration="1217000" />
+      <workItem from="1662992853695" duration="11822000" />
     </task>
     <servers />
   </component>
