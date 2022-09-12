@@ -113,7 +113,7 @@ main>section:nth-child(3)>section:nth-child(3)>div:nth-child(2){
 main>section:nth-child(3)>section:nth-child(3)>div:nth-child(3){
     background: url("../images/GitHub-Logo.png");
     background-size: cover;
-    width: 13.5vw;
+    width: 12.5vw;
 }
 main>section:nth-child(3)>section:nth-child(3)>div:nth-child(4){
     background: url("../images/intellij-idea.png");
@@ -409,11 +409,18 @@ main>a>div:first-of-type{
         font-size: 11px;
     }
 }
-@media all and (min-width: 320px) and (max-width: 509px){
+@media all and (min-width: 480px) and (max-width: 509px){
     nav>ul>li{
         font-size: 10px;
     }
 }
-
-
-
+@media all and (min-width: 453px) and (max-width: 479px){
+    nav>ul>li{
+        font-size: 9px;
+    }
+}
+@media all and (min-width: 320px) and (max-width: 452px){
+    nav>ul>li{
+        font-size: 8px;
+    }
+}
