@@ -1,7 +1,7 @@
 /*To header */
 header:first-of-type{
     background: #73A24E;
-    width: 99vw;
+    width: 98.5vw;
     height: 40px;
     position: relative;
 }
@@ -36,13 +36,13 @@ header>nav>ul>li>a>i{
 /*To main */
 /*First Section in main*/
 main>section:nth-child(1)>img{
-    width: 99vw;
+    width: 98.5vw;
     height: 50vw;
 }
 /*------------------------------------------------------------------------*/
 /*Second Section in main*/
 main>section:nth-child(2)>header{
-    width: 98vw;
+    width: 98.5vw;
     height: 40px;
 }
 main>section:nth-child(2)>header>h1{
@@ -153,8 +153,39 @@ main>section:nth-child(4)>section:nth-child(2)>div:nth-child(3){
 /*------------------------------------------------------------------------*/
 /*Fifth Section in main*/
 main>section:nth-child(5){
-    height: 100vh;
+    height: 25vw;
     width: 98vw;
+}
+main>section:nth-child(5)>section:nth-child(2){
+    height: 85%;
+    width: 100%;
+    position: relative;
+}
+main>section:nth-child(5)>section:nth-child(2)>a>div{
+    border: red solid 2px;
+    height: 100%;
+    width: calc(100% /3);
+}
+main>section:nth-child(5)>section:nth-child(2)>a:nth-child(1)>div:nth-child(1){
+    background: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+}
+main>section:nth-child(5)>section:nth-child(2)>a:nth-child(2)>div:nth-child(1){
+    background: greenyellow;
+    position: absolute;
+    top: 0;
+    left: calc(100% /3);
+    margin: auto;
+}
+main>section:nth-child(5)>section:nth-child(2)>a:nth-child(3)>div:nth-child(1){
+    background: yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;
 }
 /*------------------------------------------------------------------------*/
 /*sixth section in main*/
@@ -372,7 +403,7 @@ footer>div{
 }
 /*------------------------------------------------------------------------*/
 /*Div in main*/
-main>a>div:first-of-type{
+main>a:nth-child(8)>div:first-of-type{
     height: 40px;
     width: 39px;
     border-radius: 100%;
@@ -381,6 +412,39 @@ main>a>div:first-of-type{
     position: fixed;
     right: 1vw;
     bottom: 8vh ;
+}
+main>a:nth-child(9)>div{
+    position: fixed;
+    top: 80vh;
+    left: 2vw;
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+    background: red;
+    opacity: 1;
+    animation-name: MY-ANIMATION;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+main>a:nth-child(9)>div:nth-child(1)>i{
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    color: black;
+}
+@keyframes MY-ANIMATION {
+    0%{
+        height: 5px;
+        width: 5px;
+        opacity: 0;
+    }
+    100%{
+        height: 50px;
+        width: 50px;
+        opacity: 1;
+    }
 }
 /*-----------------------------------------------------------*/
 /*media*/
