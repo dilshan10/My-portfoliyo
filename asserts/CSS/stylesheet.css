@@ -419,8 +419,18 @@ main>a>div:first-of-type{
         font-size: 9px;
     }
 }
-@media all and (min-width: 320px) and (max-width: 452px){
+@media all and (min-width: 427px) and (max-width: 452px){
     nav>ul>li{
         font-size: 8px;
+    }
+}
+@media all and (min-width: 418px) and (max-width: 426px){
+    nav>ul>li{
+        font-size: 7px;
+    }
+}
+@media all and (min-width: 320px) and (max-width: 417px){
+    nav>ul>li{
+        font-size: 6px;
     }
 }
