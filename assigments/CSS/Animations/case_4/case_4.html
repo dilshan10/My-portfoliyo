@@ -3,8 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <title>Case_04</title>
+    <style>
+        main>section>div:nth-child(1){
+            background: url("asserts/sky.jpg");
+            height: 70vh;
+            width: 100vw;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: auto;
+        }
+        main>section>div:nth-child(2){
+            background: url("asserts/road.jpg");
+            position: absolute;
+            height: 30vh;
+            width: 200vw;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            animation-name: background-animation;
+            animation-iteration-count: infinite;
+            animation-duration: 15s;
+            animation-direction: alternate;
+        }
+        main>section>div:nth-child(3){
+            background: url("asserts/city.png");
+            height: 250px;
+            width: 200vw;
+            position:absolute;
+            top: 28.5vh;
+            animation-name: background-animation;
+            animation-iteration-count: infinite;
+            animation-duration: 15s;
+            animation-direction: alternate;
+        }
+        main>section>div:nth-child(4){
+            background: url("asserts/car.png");
+            background-size: cover;
+            width: 424px;
+            height: 174px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 221px;
+            margin: auto;
+        }
+        main>section>div:nth-child(5){
+            background: url("asserts/wheel.png");
+            background-size: cover;
+            height: 77px;
+            width: 77px;
+            position: absolute;
+            top: 68%;
+            left: 37.2%;
+            margin: auto;
+            animation-name: wheel-animation;
+            animation-iteration-count: infinite;
+            animation-duration: 15s;
+            animation-direction: alternate;
+        }
+        main>section>div:nth-child(6){
+            background: url("asserts/wheel.png");
+            background-size: cover;
+            height: 77px;
+            width: 77px;
+            position: absolute;
+            top: 68%;
+            left: 56.2%;
+            margin: auto;
+            animation-name: wheel-animation;
+            animation-iteration-count: infinite;
+            animation-duration: 15s;
+            animation-direction: alternate;
+        }
+        @keyframes wheel-animation {
+            0% {
+                transform: rotate(0deg);
+
+            }
+            100% {
+                transform: rotate(720deg);
+            }
+        }
+        @keyframes background-animation {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+    </style>
 </head>
 <body>
-
+    <main>
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+    </main>
 </body>
 </html>
