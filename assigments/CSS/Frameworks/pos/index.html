@@ -21,19 +21,19 @@
                     <div class="offcanvas-body" style="background: white">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#CustomerForm">Customer</a>
+                                <a class="nav-link active" aria-current="page" href="pages/CustomerForm.html">Customer</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#ItemForm">Store</a>
+                                <a class="nav-link active" aria-current="page" href="pages/ItemForm.html">Store</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#PlaceOrderForm" target="_parent">Order</a>
+                                <a class="nav-link active" aria-current="page" href="pages/PlaceOrderForm.html" target="_parent">Order</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#SettingForm" target="_parent">Settings</a>
+                                <a class="nav-link active" aria-current="page" href="pages/SettingForm.html" target="_parent">Settings</a>
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
@@ -46,229 +46,35 @@
         </nav>
     </header>
     <main style="">
-        <section id="CustomerForm" style="height: 100vh">
-            <header style="background: pink">
-                <div style="height: 60px;width: 100vw;">
-
-                </div>
+        <div style="height: 60px;width: 98vw;"></div>
+        <section style="height: 100vh;width: 98vw;" id="Home">
+            <section style="height: 300px;width: 98vw">
                 <div class="row">
-                    <div class="col">
-                        <h3>Customer Form</h3>
-                    </div>
-                    <div class="col">
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Customer Name or ID" aria-label="Customer Name or ID" aria-describedby="button-addon2">
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+                    <div class="col" style="height: 100%">
+                        <h4 style="background: red">
+                            Customers
+                        </h4>
+                        <div>
+                            <p style="font-size: 200px">51</p>
                         </div>
                     </div>
-                    <div class="col">
-                        <a href="#"><button type="button" class="btn btn-primary">Add Ne Customer</button></a>
-                        <a href="#"><button type="button" class="btn btn-warning">Upadate & Delete Customer</button></a>
-                    </div>
-                </div>
-            </header>
-            <section>
-                <table class="table">
-                    <thead>
-                    <tr>
-                        <th scope="col">Customer ID</th>
-                        <th scope="col">Customer Name</th>
-                        <th scope="col">Customer Address</th>
-                        <th scope="col">Customer Tel-number</th>
-                    </tr>
-                    </thead>
-                    <tbody class="table-group-divider">
-                    <tr>
-                        <td>C00-001</td>
-                        <td>Saman Vimalasuriya</td>
-                        <td>Colombo</td>
-                        <td>+94 0754860936</td>
-                    </tr>
-                    <tr>
-                        <td>C00-002</td>
-                        <td>Sumith Perera</td>
-                        <td>Padura</td>
-                        <td>+94 0783659847</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </section>
-        </section>
-        <section>
-
-        </section>
-        <section id="PlaceOrderForm">
-            <section class="row" style="height: 150px; width: 100vw;">
-                <div class="row">
-                    <div class="col">
-                        <div class="mb-3">
-                            <label for="Total" class="form-label">Total</label>
-                            <input type="number" class="form-control" id="Total" aria-describedby="emailHelp">
+                    <div class="col" style="height: 100%">
+                        <h4 style="background: red">
+                            Items
+                        </h4>
+                        <div>
+                            <p style="font-size: 200px">60</p>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="mb-3">
-                            <label for="SubTotal" class="form-label">Sub Total</label>
-                            <input type="number" class="form-control" id="SubTotal" aria-describedby="emailHelp">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="row">
-                            <div class="col">
-                                <div class="mb-3">
-                                    <label for="Cash" class="form-label">Cash</label>
-                                    <input type="number" class="form-control" id="Cash" aria-describedby="emailHelp">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="mb-3">
-                                    <label for="Discount" class="form-label">Discount</label>
-                                    <input type="number" class="form-control" id="Discount" aria-describedby="emailHelp">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <div class="mb-3">
-                                    <label for="Balance" class="form-label">Balance</label>
-                                    <input type="number" class="form-control" id="Balance" aria-describedby="emailHelp">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="mb-3">
-                                    <button type="button" class="btn btn-success">Purchese</button></div>
-                            </div>
+                    <div class="col" style="height: 100%">
+                        <h4 style="background: red">
+                            Orders
+                        </h4>
+                        <div>
+                            <p style="font-size: 200px">210</p>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="row" style="width: 100vw; height: 300px;align-items: center">
-                <div class="col" style="width: 50vw;background: white;">
-                    <div style="height: fit-content; width: 100%; background: green;">
-                        <h3>Order Details</h3>
-                    </div>
-                    <form>
-                        <div class="row">
-                            <div class="col">
-                                <div class="mb-3">
-                                    <label for="OrderID" class="form-label">Order ID</label>
-                                    <input type="text" class="form-control" id="OrderID" aria-describedby="emailHelp">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="mb-3,col">
-                                    <label for="OrderDate" class="form-label">Order Date</label>
-                                    <input type="text" class="form-control" id="OrderDate" aria-describedby="emailHelp">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <div class="mb-3">
-                                    <label for="CustID" class="form-label">Customer ID</label>
-                                    <input type="text" class="form-control" id="CustID">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="mb-3">
-                                    <label for="CustName" class="form-label">Customer Name</label>
-                                    <input type="text" class="form-control" id="CustName">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <div class="mb-3">
-                                    <label for="CustAddres" class="form-label">Customer Address</label>
-                                    <input type="text" class="form-control" id="CustAddres">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="mb-3">
-                                    <label for="CustTell" class="form-label">Customer Tel-Number</label>
-                                    <input type="text" class="form-control" id="CustTell">
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col" style="width: 50vw;background: white;">
-                    <div style="height: fit-content; width: 100%; background: green">
-                        <h3>Items In Order</h3>
-                    </div>
-                    <form>
-                        <div class="row">
-                            <div class="col">
-                                <div class="mb-3">
-                                    <label for="ItemCode" class="form-label">Item Code</label>
-                                    <input type="text" class="form-control" id="ItemCode" aria-describedby="emailHelp">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="mb-3,col">
-                                    <label for="ItemName" class="form-label">Item Name</label>
-                                    <input type="text" class="form-control" id="ItemName" aria-describedby="emailHelp">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <div class="mb-3">
-                                    <label for="ItemPrice" class="form-label">Item Price</label>
-                                    <input type="text" class="form-control" id="ItemPrice">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="mb-3">
-                                    <label for="QTYonHand" class="form-label">Qty On Hand</label>
-                                    <input type="text" class="form-control" id="QTYonHand">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <div class="mb-3">
-                                    <label for="OrderQTY" class="form-label">Order QTY</label>
-                                    <input type="text" class="form-control" id="OrderQTY">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="mb-3">
-                                    <button type="button" class="btn btn-danger">Add Item</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </section>
-            <section >
-                <table class="table">
-                    <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Item Code</th>
-                        <th scope="col">Item Name</th>
-                        <th scope="col">QTy</th>
-                        <th scope="col">Price</th>
-                    </tr>
-                    </thead>
-                    <tbody class="table-group-divider">
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>I00-001</td>
-                        <td>Rice</td>
-                        <td>3 kg</td>
-                        <td>Rs.420.00</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>I00-002</td>
-                        <td>Suger</td>
-                        <td>2.5 kg</td>
-                        <td>Rs.250.00</td>
-                    </tr>
-                    </tbody>
-                </table>
             </section>
         </section>
     </main>

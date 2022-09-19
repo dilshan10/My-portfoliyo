@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../asserts/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<header style="position: fixed; width: 100vw;">
+    <nav class="navbar" style="background-color: green;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Simple POS System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body" style="background: white">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="CustomerForm.html">Customer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="ItemForm.html">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="PlaceOrderForm.html" target="_parent">Order</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="SettingForm.html" target="_parent">Settings</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<section id="CustomerForm" style="height: 98vh">
+    <header style="background: pink">
+        <div style="height: 60px;width: 100vw;">
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3>Item Form</h3>
+            </div>
+            <div class="col">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="ItemID" class="form-label">Item ID</label>
+                                <input type="email" class="form-control" id="ItemID" aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="ItemName" class="form-label">Item Name</label>
+                                <input type="email" class="form-control" id="ItemName" aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="Price" class="form-label">Price</label>
+                                <input type="email" class="form-control" id="Price" aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="QTY" class="form-label">Qty On Hand</label>
+                                <input type="email" class="form-control" id="QTY" aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row" style="height: fit-content; width: 98vw;">
+            <div class="col">
+                <div class="btn-group">
+                    <button class="btn btn-primary" id="btnCustomer">Save Item</button>
+                    <button class="btn btn-danger" id="btnCusDelete">Remove</button>
+                    <button class="btn btn-warning" id="btnUpdate">Update</button>
+                    <button class="btn btn-success">Get All</button>
+                    <button class="btn btn-danger" id="btn-clear1">Clear All</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Item ID</th>
+                        <th scope="col">Item Name</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">QTY On Hand</th>
+                    </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                    <tr>
+                        <td>I00-001</td>
+                        <td>Rice</td>
+                        <td>Rs: 140.00</td>
+                        <td>100 kg</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</section>
+<script src="../asserts/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
