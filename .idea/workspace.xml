@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b144a01d-24f2-4583-8bb9-b0064653fb1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/CustomerForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/ItemForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/PlaceOrderForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/SettingForm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +177,7 @@
       <workItem from="1663500123011" duration="2020000" />
       <workItem from="1663517478142" duration="8218000" />
       <workItem from="1663555131102" duration="106000" />
-      <workItem from="1663599781587" duration="4923000" />
+      <workItem from="1663599781587" duration="5511000" />
     </task>
     <servers />
   </component>
