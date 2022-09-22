@@ -6,20 +6,34 @@
     <link rel="stylesheet" href="asserts/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-<header style="position: fixed; width: 98vw;">
-    <nav class="navbar" style="background-color: green;">
-        <h3>POS System</h3>
-        <ul class="list-group list-group-horizontal text-danger justify-content-end font-weight-bold">
-            <li class="list-group-item bg-danger text-white"><button id="HomeBtn">Home</button></li>
-            <li class="list-group-item bg-white" id="lnkCustomer"><button id="CustomerBtn">Customer</button></li>
-            <li class="list-group-item bg-white" id="lnkItem"><button id="ItemBtn">Item</button></li>
-            <li class="list-group-item bg-white" id="lnkOrders"><button id="OrdersBtn">Place Orders</button></li>
-        </ul>
-    </nav>
+<header style="position: fixed; width: 100vw;background: #73A24E">
+    <div class="row">
+        <div class="col">
+            <h3>POS System</h3>
+        </div>
+        <div class="col"></div>
+        <div class="col">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="HomeBtn" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="false" >Home</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="CustomerBtn" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="ItemBtn" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Items</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="OrdersBtn" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Place Order</button>
+                </li>
+            </ul>
+
+        </div>
+    </div>
 </header>
 <main style="">
-    <div style="height: 60px;width: 98vw;"></div>
-    <section style="height: 88vh;width: 98vw;" id="Home">
+    <div style="height: 60px;width: 100vw;"></div>
+    <section style="height: 88vh;width: 100vw;" id="Home">
         <section style="height: 300px;width: 98vw">
             <div class="row">
                 <div class="col" style="height: 100%">
@@ -49,8 +63,7 @@
             </div>
         </section>
     </section>
-    <section id="CustomerForm" style="height: 98vh;border: 2px solid red">
-        <div style="height: 60px;width: 100vw;"></div>
+    <section id="CustomerForm" style="height: 88vh;width:99vw;margin-top: 1px">
         <header style="background: pink">
             <div class="row">
                 <div class="col">
@@ -99,7 +112,7 @@
                     </form>
                 </div>
             </div>
-            <div class="row" style="height: fit-content; width: 98vw;">
+            <div class="row" style="height: fit-content; width: 100vw;">
                 <div class="col">
                     <div class="btn-group">
                         <button class="btn btn-primary" id="btnCustomer1">Save Customer</button>
@@ -140,8 +153,7 @@
             </div>
         </section>
     </section>
-    <section id="ItemForm" style="height: 98vh;border: 2px solid red">
-        <div style="height: 60px;width: 100vw;"></div>
+    <section id="ItemForm" style="height: 88vh;width:99vw;margin-top: 1px">
         <header style="background: pink">
             <div class="row">
                 <div class="col">
@@ -225,10 +237,18 @@
             </div>
         </section>
     </section>
-    <section id="PlaceOrderForm" style="height: 98vh;border: 2px solid red">
-        <div style="height: 60px;width: 100vw;"></div>
+    <section id="PlaceOrderForm" style="height: 88vh;width:99vw;margin-top: 1px">
+        <header style="background: pink">
+            <div class="row">
+                <div class="col">
+                    <h3>Place Order Form</h3>
+                </div>
+                <div class="col">
+                </div>
+            </div>
+        </header>
         <section>
-            <section class="row" style="height: 150px; width: 100vw;">
+            <section class="row" style="height: 127px; width: 99vw;">
                 <div class="row">
                     <div class="col">
                         <div class="mb-3">
@@ -261,6 +281,10 @@
                             <div class="col">
                                 <div class="mb-3">
                                     <label for="Balance" class="form-label">Balance</label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
                                     <input type="number" class="form-control" id="Balance" aria-describedby="emailHelp">
                                 </div>
                             </div>
@@ -272,7 +296,7 @@
                     </div>
                 </div>
             </section>
-            <section class="row" style="width: 100vw; height: 300px;align-items: center">
+            <section class="row" style="width: 99vw; height: 250px;align-items: center">
                 <div class="col" style="width: 50vw;background: white;">
                     <div style="height: fit-content; width: 100%; background: green;">
                         <h3>Order Details</h3>
@@ -403,10 +427,39 @@
         </section>
     </section>
     <script src="asserts/bootstrap/js/bootstrap.min.js"></script>
+    <script src="asserts/js/jquery-3.6.1.min.js"></script>
     <script>
-        $('#HomeBtn').click(function () {
-            $('#Home').css('visibility','visible');
+        $('#Home').css("display", "block");
+        $('#CustomerForm').css("display", "none");
+        $('#ItemForm').css("display", "none");
+        $('#PlaceOrderForm').css("display", "none");
+        //-------------------------------------------------
+        $("#HomeBtn").click(function(){
+            $("#Home").css("display", "block");
+            $("#CustomerForm").css("display", "none");
+            $('#ItemForm').css("display", "none");
+            $('#PlaceOrderForm').css("display", "none");
+        });
+        //-------------------------------------------------
+        $('#CustomerBtn').click(function () {
+            $('#Home').css("display", "none");
+            $('#CustomerForm').css("display", "block");
+            $('#ItemForm').css("display", "none");
+            $('#PlaceOrderForm').css("display", "none");
         })
+        $('#ItemBtn').click(function () {
+            $('#Home').css("display", "none");
+            $('#CustomerForm').css("display", "none");
+            $('#ItemForm').css("display","block");
+            $('#PlaceOrderForm').css("display", "none");
+        })
+        $('#OrdersBtn').click(function () {
+            $('#Home').css("display", "none");
+            $('#CustomerForm').css("display", "none");
+            $('#ItemForm').css("display","none");
+            $('#PlaceOrderForm').css("display", "block");
+        })
+
     </script>
 </main>
 </body>
