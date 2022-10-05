@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Pos System</title>
     <link rel="stylesheet" href="../asserts/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
@@ -69,28 +69,28 @@
                     <div class="row">
                         <div class="col">
                             <div class="mb-3">
-                                <label for="ItemID" class="form-label">Item ID</label>
-                                <input type="email" class="form-control" id="ItemID" aria-describedby="emailHelp">
+                                <label for="txtItemID" class="form-label">Item ID</label>
+                                <input type="email" class="form-control" id="txtItemID" aria-describedby="emailHelp">
                             </div>
                         </div>
                         <div class="col">
                             <div class="mb-3">
-                                <label for="ItemName" class="form-label">Item Name</label>
-                                <input type="email" class="form-control" id="ItemName" aria-describedby="emailHelp">
+                                <label for="txtItemName" class="form-label">Item Name</label>
+                                <input type="email" class="form-control" id="txtItemName" aria-describedby="emailHelp">
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
                             <div class="mb-3">
-                                <label for="Price" class="form-label">Price</label>
-                                <input type="email" class="form-control" id="Price" aria-describedby="emailHelp">
+                                <label for="txtQTY" class="form-label">Qty On Hand</label>
+                                <input type="email" class="form-control" id="txtQTY" aria-describedby="emailHelp">
                             </div>
                         </div>
                         <div class="col">
                             <div class="mb-3">
-                                <label for="QTY" class="form-label">Qty On Hand</label>
-                                <input type="email" class="form-control" id="QTY" aria-describedby="emailHelp">
+                                <label for="txtPrice" class="form-label">Price</label>
+                                <input type="email" class="form-control" id="txtPrice" aria-describedby="emailHelp">
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
         <div class="row" style="height: fit-content; width: 98vw;">
             <div class="col">
                 <div class="btn-group">
-                    <button class="btn btn-primary" id="btnCustomer">Save Item</button>
+                    <button class="btn btn-primary" id="btnItem">Save Item</button>
                     <button class="btn btn-danger" id="btnCusDelete">Remove</button>
                     <button class="btn btn-warning" id="btnUpdate">Update</button>
                     <button class="btn btn-success">Get All</button>
@@ -115,17 +115,14 @@
                     <tr>
                         <th scope="col">Item ID</th>
                         <th scope="col">Item Name</th>
-                        <th scope="col">Price</th>
                         <th scope="col">QTY On Hand</th>
+                        <th scope="col">Price</th>
                     </tr>
                     </thead>
-                    <tbody class="table-group-divider">
-                    <tr>
-                        <td>I00-001</td>
-                        <td>Rice</td>
-                        <td>Rs: 140.00</td>
-                        <td>100 kg</td>
-                    </tr>
+                    <tbody class="table-group-divider" id="tblItem">
+                        <tr>
+
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -133,5 +130,42 @@
     </section>
 </section>
 <script src="../asserts/bootstrap/js/bootstrap.min.js"></script>
+<script src="../asserts/js/jquery-3.6.1.min.js"></script>
+<script>
+    var item;
+    var ItemDetails = [];
+
+    function clear() {
+        $('#tblItem').empty();
+    }
+    function loadAllCustomer(){
+        clear();
+        for (var i of ItemDetails){
+
+            $('#tblItem').append('<tr><td>'+i.id+'</td><td>'+i.name+'</td><td>'+i.Qty+'</td><td>'+i.price+'</td></tr>')
+        }
+    }
+
+    $('#btnItem').click(function () {
+        let ItemId = $('#txtItemID').val();
+        let ItemName = $('#txtItemName').val();
+        let Qty = $('#txtQTY').val();
+        let price = $('#txtPrice').val();
+
+        item = {
+            id :ItemId,
+            name:ItemName,
+            Qty:Qty,
+            price:price
+        }
+
+        ItemDetails.push(item);
+        loadAllCustomer();
+    })
+
+    $('#btn-clear1').click(function () {
+        $('#tblItem').empty();
+    })
+</script>
 </body>
 </html>

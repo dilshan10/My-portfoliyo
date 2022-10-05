@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Pos System</title>
     <link rel="stylesheet" href="../asserts/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
@@ -69,28 +69,28 @@
                     <div class="row">
                         <div class="col">
                             <div class="mb-3">
-                                <label for="CustID" class="form-label">Customer ID</label>
-                                <input type="email" class="form-control" id="CustID" aria-describedby="emailHelp">
+                                <label for="txtCustID" class="form-label">Customer ID</label>
+                                <input type="email" class="form-control" id="txtCustID" aria-describedby="emailHelp">
                             </div>
                         </div>
                         <div class="col">
                             <div class="mb-3">
-                                <label for="CustName" class="form-label">Customer Name</label>
-                                <input type="email" class="form-control" id="CustName" aria-describedby="emailHelp">
+                                <label for="txtCustName" class="form-label">Customer Name</label>
+                                <input type="email" class="form-control" id="txtCustName" aria-describedby="emailHelp">
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
                             <div class="mb-3">
-                                <label for="CustAddress" class="form-label">Customer address</label>
-                                <input type="email" class="form-control" id="CustAddress" aria-describedby="emailHelp">
+                                <label for="txtCustAddress" class="form-label">Customer address</label>
+                                <input type="email" class="form-control" id="txtCustAddress" aria-describedby="emailHelp">
                             </div>
                         </div>
                         <div class="col">
                             <div class="mb-3">
-                                <label for="CustTelNumber" class="form-label">Customer Tel-Number</label>
-                                <input type="email" class="form-control" id="CustTelNumber" aria-describedby="emailHelp">
+                                <label for="txtCustTelNumber" class="form-label">Customer Tel-Number</label>
+                                <input type="email" class="form-control" id="txtCustTelNumber" aria-describedby="emailHelp">
                             </div>
                         </div>
                     </div>
@@ -119,18 +119,9 @@
                         <th scope="col">Customer Tel-number</th>
                     </tr>
                     </thead>
-                    <tbody class="table-group-divider">
+                    <tbody class="table-group-divider" id="tblCustomer">
                     <tr>
-                        <td>C00-001</td>
-                        <td>Saman Vimalasuriya</td>
-                        <td>Colombo</td>
-                        <td>+94 0754860936</td>
-                    </tr>
-                    <tr>
-                        <td>C00-002</td>
-                        <td>Sumith Perera</td>
-                        <td>Padura</td>
-                        <td>+94 0783659847</td>
+
                     </tr>
                     </tbody>
                 </table>
@@ -139,5 +130,61 @@
     </section>
 </section>
 <script src="../asserts/bootstrap/js/bootstrap.min.js"></script>
+<script src="../asserts/js/jquery-3.6.1.min.js"></script>
+<script>
+    var Customer;
+    var CustomerDetails = [];
+
+    function clear() {
+        $('#tblCustomer').empty();
+    }
+    function loadAllCustomer(){
+        clear();
+        for (var i of CustomerDetails){
+
+            $('#tblCustomer').append('<tr><td>'+i.id+'</td><td>'+i.name+'</td><td>'+i.Address+'</td><td>'+i.telnum+'</td></tr>')
+        }
+    }
+
+    $('#btnCustomer').click(function () {
+        let custId = $('#txtCustID').val();
+        let CustName = $('#txtCustName').val();
+        let CustAddress = $('#txtCustAddress').val();
+        let Custtell = $('#txtCustTelNumber').val();
+
+        Customer = {
+            id :custId,
+            name:CustName,
+            Address:CustAddress,
+            telnum:Custtell
+        }
+
+        CustomerDetails.push(Customer);
+        loadAllCustomer();
+        bindRowClickEvents();
+    });
+
+    $('#btn-clear1').click(function () {
+        $('#tblCustomer').empty();
+    });
+
+    function bindRowClickEvents() {
+        $("#tblCustomer>tr").click(function () {
+            let id = $(this).children(":eq(0)").text();
+            let name = $(this).children(":eq(1)").text();
+            let address = $(this).children(":eq(2)").text();
+            let telnum = $(this).children(":eq(3)").text();
+            // console.log(id, name, address, salary);
+
+            //setting table details values to text fields
+            $('#txtCustID').val(id);
+            $('#txtCustName').val(name);
+            $('#txtCustAddress').val(address);
+            $('#txtCustTell').val(telnum);
+
+        });
+    }
+
+</script>
 </body>
 </html>

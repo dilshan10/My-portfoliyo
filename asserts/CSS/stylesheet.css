@@ -41,19 +41,70 @@ main>section:nth-child(1)>img{
 }
 /*------------------------------------------------------------------------*/
 /*Second Section in main*/
+main>section:nth-child(2)>section:nth-child(2){
+    height: 10vw;
+}
+main>section:nth-child(2)>section:nth-child(3){
+    height: 40vw;
+    position: relative;
+}
 main>section:nth-child(2)>header{
     width: 98.5vw;
     height: 40px;
 }
-main>section:nth-child(2)>header>h1{
+main>section:nth-child(2)>header:nth-child(1)>h1{
     color: black;
 }
-main>section:nth-child(2)>p{
+main>section:nth-child(2)>section:nth-child(2)>p{
     font-size: 20px;
     color: red;
 }
-main>section:nth-child(2)>article>p{
+main>section:nth-child(2)>section:nth-child(2)>article>p{
     text-align: center;
+}
+main>section:nth-child(2)>section:nth-child(3)>div:nth-child(1){
+    background: #cc3ef7;
+    clip-path: polygon(29% 2%, 100% 19%, 84% 100%, 9% 95%, 0% 38%);
+    height: 40vw;
+    width: 40vw;
+    position: relative;
+    margin-bottom: 3vw;
+    margin-left: 6vw;
+}
+main>section:nth-child(2)>section:nth-child(3)>div:nth-child(1)>div:nth-child(1){
+    background: url("../images/About.png");
+    background-size: cover;
+    width: 76%;
+    height: 75%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+main>section:nth-child(2)>section:nth-child(3)>div:nth-child(2){
+    height: 40vw;
+    width: 40vw;
+    clip-path: polygon(70% 0, 100% 31%, 76% 60%, 100% 100%, 48% 87%, 11% 92%, 1% 51%, 14% 12%);
+    background: #0a53be;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 6vw;
+    margin-bottom: 1vw;
+}
+main>section:nth-child(2)>section:nth-child(3)>div:nth-child(2)>div:nth-child(1){
+    background: url("../images/Education.png");
+    background-size: cover;
+    width: 62%;
+    height: 81%;
+    position: absolute;
+    top : 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
 }
 /*------------------------------------------------------------------------*/
 /*Third Section inb main*/
@@ -162,30 +213,48 @@ main>section:nth-child(5)>section:nth-child(2){
     position: relative;
 }
 main>section:nth-child(5)>section:nth-child(2)>a>div{
-    border: red solid 2px;
-    height: 100%;
-    width: calc(100% /3);
+    height: 90%;
+    width: calc(100% /3 );
 }
 main>section:nth-child(5)>section:nth-child(2)>a:nth-child(1)>div:nth-child(1){
-    background: green;
+    background: url("../images/Java-Projects.png");
+    background-size: cover;
     position: absolute;
     top: 0;
     left: 0;
+    bottom: 0;
     margin: auto;
 }
+main>section:nth-child(5)>section:nth-child(2)>a:nth-child(1)>div:nth-child(1):hover{
+    height: 200px;
+    width: 400px;
+}
 main>section:nth-child(5)>section:nth-child(2)>a:nth-child(2)>div:nth-child(1){
-    background: greenyellow;
+    background: url("../images/clipart724392.png");
+    background-size: cover;
     position: absolute;
     top: 0;
+    bottom: 0;
     left: calc(100% /3);
     margin: auto;
 }
+main>section:nth-child(5)>section:nth-child(2)>a:nth-child(2)>div:nth-child(1):hover{
+    height: 200px;
+    width: 400px;
+}
 main>section:nth-child(5)>section:nth-child(2)>a:nth-child(3)>div:nth-child(1){
-    background: yellow;
+    background: url("../images/Python.png");
+    height: 70%;
+    background-size: cover;
     position: absolute;
     top: 0;
+    bottom: 0;
     right: 0;
     margin: auto;
+}
+main>section:nth-child(5)>section:nth-child(2)>a:nth-child(3)>div:nth-child(1):hover{
+    height: 180px;
+    width: 400px;
 }
 /*------------------------------------------------------------------------*/
 /*sixth section in main*/
@@ -427,6 +496,26 @@ main>a:nth-child(9)>div{
     animation-iteration-count: infinite;
 }
 main>a:nth-child(9)>div:nth-child(1)>i{
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    color: black;
+}
+main>a:nth-child(10)>div:nth-child(1){
+    height: 50px;
+    width: 50px;
+    background: red;
+    border-radius: 100%;
+    position: fixed;
+    top: 70vh;
+    left: 2vw;
+    animation-name: MY-ANIMATION;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+main>a:nth-child(10)>div:nth-child(1)>i:nth-child(1){
     font-size: 30px;
     align-items: center;
     justify-content: center;

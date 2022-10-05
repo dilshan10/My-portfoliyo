@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Pos System</title>
     <link rel="stylesheet" href="../asserts/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
@@ -102,42 +102,42 @@
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="OrderID" class="form-label">Order ID</label>
-                                    <input type="text" class="form-control" id="OrderID" aria-describedby="emailHelp">
+                                    <label for="txtOrderID" class="form-label">Order ID</label>
+                                    <input type="text" class="form-control" id="txtOrderID" aria-describedby="emailHelp">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-3,col">
-                                    <label for="OrderDate" class="form-label">Order Date</label>
-                                    <input type="text" class="form-control" id="OrderDate" aria-describedby="emailHelp">
+                                    <label for="txtOrderDate" class="form-label">Order Date</label>
+                                    <input type="text" class="form-control" id="txtOrderDate" aria-describedby="emailHelp">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="CustID" class="form-label">Customer ID</label>
-                                    <input type="text" class="form-control" id="CustID">
+                                    <label for="txtCustID" class="form-label">Customer ID</label>
+                                    <input type="text" class="form-control" id="txtCustID">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="CustName" class="form-label">Customer Name</label>
-                                    <input type="text" class="form-control" id="CustName">
+                                    <label for="txtCustName" class="form-label">Customer Name</label>
+                                    <input type="text" class="form-control" id="txtCustName">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="CustAddres" class="form-label">Customer Address</label>
-                                    <input type="text" class="form-control" id="CustAddres">
+                                    <label for="txtCustAddres" class="form-label">Customer Address</label>
+                                    <input type="text" class="form-control" id="txtCustAddres">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="CustTell" class="form-label">Customer Tel-Number</label>
-                                    <input type="text" class="form-control" id="CustTell">
+                                    <label for="txtCustTell" class="form-label">Customer Tel-Number</label>
+                                    <input type="text" class="form-control" id="txtCustTell">
                                 </div>
                             </div>
                         </div>
@@ -151,41 +151,41 @@
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="ItemCode" class="form-label">Item Code</label>
-                                    <input type="text" class="form-control" id="ItemCode" aria-describedby="emailHelp">
+                                    <label for="txtItemCode" class="form-label">Item Code</label>
+                                    <input type="text" class="form-control" id="txtItemCode" aria-describedby="emailHelp">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-3,col">
-                                    <label for="ItemName" class="form-label">Item Name</label>
-                                    <input type="text" class="form-control" id="ItemName" aria-describedby="emailHelp">
+                                    <label for="txtItemName" class="form-label">Item Name</label>
+                                    <input type="text" class="form-control" id="txtItemName" aria-describedby="emailHelp">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="ItemPrice" class="form-label">Item Price</label>
-                                    <input type="text" class="form-control" id="ItemPrice">
+                                    <label for="txtItemPrice" class="form-label">Item Price</label>
+                                    <input type="text" class="form-control" id="txtItemPrice">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="QTYonHand" class="form-label">Qty On Hand</label>
-                                    <input type="text" class="form-control" id="QTYonHand">
+                                    <label for="txtQTYonHand" class="form-label">Qty On Hand</label>
+                                    <input type="text" class="form-control" id="txtQTYonHand">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="OrderQTY" class="form-label">Order QTY</label>
-                                    <input type="text" class="form-control" id="OrderQTY">
+                                    <label for="txtOrderQTY" class="form-label">Order QTY</label>
+                                    <input type="text" class="form-control" id="txtOrderQTY">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-3">
-                                    <button type="button" class="btn btn-danger">Add Item</button>
+                                    <button type="button" class="btn btn-danger" ID="btnAddItem">Add Item</button>
                                 </div>
                             </div>
                         </div>
@@ -203,20 +203,9 @@
                         <th scope="col">Price</th>
                     </tr>
                     </thead>
-                    <tbody class="table-group-divider">
+                    <tbody class="table-group-divider" id="tblOrder">
                     <tr>
-                        <th scope="row">1</th>
-                        <td>I00-001</td>
-                        <td>Rice</td>
-                        <td>3 kg</td>
-                        <td>Rs.420.00</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>I00-002</td>
-                        <td>Suger</td>
-                        <td>2.5 kg</td>
-                        <td>Rs.250.00</td>
+
                     </tr>
                     </tbody>
                 </table>
@@ -224,5 +213,37 @@
         </section>
     </main>
     <script src="../asserts/bootstrap/js/bootstrap.min.js"></script>
+<script src="../asserts/js/jquery-3.6.1.min.js"></script>
+<script>
+    var item;
+    var OrderItemDetails = [];
+
+    function clar() {
+        $('#tblOrder').empty();
+    }
+
+    function loadAllItem(){
+        clar();
+        for(var i of OrderItemDetails){
+            $('#tblOrder').append('<tr><td>'+i.id+'</td><td>'+i.name+'</td><td>'+ i.Qty+'</td><td>'+i.price+'</td></tr>')
+        }
+    }
+
+    $('#btnAddItem').click(function () {
+        let itemID = $('#txtItemCode').val();
+        let itemName = $('#txtItemName').val();
+        let itemQTY = $('#txtOrderQTY').val();
+        let itemPrice = $('#txtItemPrice').val();
+
+        item ={
+            id : itemID,
+            name : itemName,
+            Qty : itemQTY,
+            price : itemPrice
+        }
+        OrderItemDetails.push(item);
+        loadAllItem();
+    })
+</script>
 </body>
 </html>

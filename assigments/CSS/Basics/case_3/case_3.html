@@ -5,76 +5,60 @@
     <title>CSS case 03</title>
     <link rel="stylesheet" href="css/normalize.css">
     <style>
-        main>section{
-            width: 100vw;
-            height: 100vh;
-            position: relative;
-        }
-        main>div:nth-child(5){
-            position: absolute;
-            border: 10px solid red;
+        main>div:nth-child(1){
+            background:purple;
             height: 150px;
             width: 150px;
             border-radius: 100%;
-            position: fixed;
+            position: absolute;
             top: 0;
             bottom: 0;
             left: 0;
             right: 0;
             margin: auto;
         }
-        main>div:nth-child(6){
-            position: absolute;
-            border: 10px solid gray;
-            height: 170px;
-            width: 170px;
+        main>div:nth-child(2){
+            height: 150px;
+            width: 150px;
+            border: 15px solid red;
             border-radius: 100%;
-            position: fixed;
+            position: absolute;
             top: 0;
             bottom: 0;
             left: 0;
             right: 0;
             margin: auto;
         }
-        main>section>div{
-            position: absolute;
-            background: purple;
-            width: 149px;
-            height: 149px;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
+        main>div:nth-child(3){
+            height: 180px;
+            width: 180px;
             border-radius: 100%;
-        }
-        main>section>div>h1{
+            border: 15px solid #928989;
             position: absolute;
-            text-align: center;
-            top: 35%;
-            left: 25%;
-
-            color: white;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        main>h1:nth-child(4){
+            height: fit-content;
+            width: fit-content;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
             margin: auto;
         }
     </style>
 </head>
 <body>
     <main>
-        <section>
-            <div><h1>Hello</h1></div>
-        </section>
-        <section>
-            <div><h1>Hello</h1></div>
-        </section>
-        <section>
-            <div><h1>Hello</h1></div>
-        </section>
-        <section>
-            <div><h1>Hello</h1></div>
-        </section>
         <div></div>
         <div></div>
+        <div></div>
+        <h1>Hello</h1>
     </main>
 </body>
 </html>
