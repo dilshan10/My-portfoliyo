@@ -35,9 +35,70 @@ header>nav>ul>li>a>i{
 /*------------------------------------------------------------------------------------*/
 /*To main */
 /*First Section in main*/
-main>section:nth-child(1)>img{
+main>section:nth-child(1){
+    position: relative;
+    height: 49vw;
+}
+main>section:nth-child(1)>div:nth-child(1){
+    background: url("../images/Cover.png");
+    background-size: cover;
     width: 98.5vw;
-    height: 50vw;
+    height: 25vw;
+}
+main>section:nth-child(1)>div:nth-child(2){
+    background: url("../images/pr.png");
+    background-size: cover;
+    height: 40vw;
+    width: 40vw;
+    position: absolute;
+    right: 0;
+    top: 9vw;
+    margin: auto;
+}
+main>section:nth-child(1)>div:nth-child(3)>div:nth-child(1)>p{
+    color: red;
+    font-size: 3vw;
+    animation-name: MY-ANIMATION-2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+main>section:nth-child(1)>div:nth-child(3)>div:nth-child(1){
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 26vw;
+    left: 32vw;
+    margin: auto;
+}
+main>section:nth-child(1)>div:nth-child(3)>div:nth-child(2)>p{
+    color: #0D9EFF;
+    font-size: 2.5vw;
+    animation-name: MY-ANIMATION-2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+main>section:nth-child(1)>div:nth-child(3)>div:nth-child(2){
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 30vw;
+    left: 22vw;
+    margin: auto;
+}
+main>section:nth-child(1)>div:nth-child(3)>div:nth-child(3)>p{
+    color: red;
+    font-size: 2.5vw;
+    animation-name: MY-ANIMATION-2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+main>section:nth-child(1)>div:nth-child(3)>div:nth-child(3){
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 34vw;
+    left: 18vw;
+    margin: auto;
 }
 /*------------------------------------------------------------------------*/
 /*Second Section in main*/
@@ -511,9 +572,6 @@ main>a:nth-child(10)>div:nth-child(1){
     position: fixed;
     top: 70vh;
     left: 2vw;
-    animation-name: MY-ANIMATION;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
 }
 main>a:nth-child(10)>div:nth-child(1)>i:nth-child(1){
     font-size: 30px;
@@ -532,6 +590,17 @@ main>a:nth-child(10)>div:nth-child(1)>i:nth-child(1){
     100%{
         height: 50px;
         width: 50px;
+        opacity: 1;
+    }
+}
+@keyframes MY-ANIMATION-2{
+    0%{
+       opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
         opacity: 1;
     }
 }

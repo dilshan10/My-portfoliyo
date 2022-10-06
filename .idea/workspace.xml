@@ -2,43 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b144a01d-24f2-4583-8bb9-b0064653fb1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/asserts/images/About.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Education.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Java-Projects.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Python.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Screenshot (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Screenshot (10).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Screenshot (11).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Screenshot (12).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Screenshot (13).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Screenshot (14).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Screenshot (15).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Screenshot (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Screenshot (3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Screenshot (4).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Screenshot (5).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Screenshot (6).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Screenshot (7).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Screenshot (8).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Screenshot (9).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/Untitled-1.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asserts/images/clipart724392.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/asserts/js/jquery-3.6.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/images/Cover.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/images/GitHub-Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/GitHub-Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/images/Whatsapp.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/Whatsapp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/images/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/instagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/images/linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/linkedin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/images/teli.png" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/images/teli.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asserts/pdf/Assignment 02.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assi.html" beforeDir="false" afterPath="$PROJECT_DIR$/assi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/CSS/Basics/case_3/case_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/CSS/Basics/case_3/case_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/CustomerForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/CustomerForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/ItemForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/ItemForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/PlaceOrderForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/PlaceOrderForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/JS/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/JS/SPA/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/images/Full _Cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/images/Untitled-1.psd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,19 +59,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\images" />
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\CSS" />
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\Frameworks\pos\asserts\js" />
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\JS\Calculator\asserts" />
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\JS\SPA\asserts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\JS\Calculator\asserts\image" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\Frameworks\pos\asserts\bootstrap" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\Frameworks\pos" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\Frameworks\case_1" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\Basics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\images" />
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\CSS" />
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\Frameworks\pos\asserts\js" />
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\JS\Calculator\asserts" />
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\JS\SPA\asserts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -229,7 +197,8 @@
       <workItem from="1664860063494" duration="5761000" />
       <workItem from="1664891982200" duration="8202000" />
       <workItem from="1664968357604" duration="10997000" />
-      <workItem from="1664988071277" duration="3386000" />
+      <workItem from="1664988071277" duration="4780000" />
+      <workItem from="1665080991061" duration="5003000" />
     </task>
     <servers />
   </component>
