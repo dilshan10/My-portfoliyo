@@ -35,17 +35,17 @@ header>nav>ul>li>a>i{
 /*------------------------------------------------------------------------------------*/
 /*To main */
 /*First Section in main*/
-main>section:nth-child(1){
+main>section:nth-child(2){
     position: relative;
     height: 49vw;
 }
-main>section:nth-child(1)>div:nth-child(1){
+main>section:nth-child(2)>div:nth-child(1){
     background: url("../images/Cover2.png");
     background-size: cover;
     width: 98.5vw;
     height: 25vw;
 }
-main>section:nth-child(1)>div:nth-child(2){
+main>section:nth-child(2)>div:nth-child(2){
     background: url("../images/pr.png");
     background-size: cover;
     height: 40vw;
@@ -55,14 +55,14 @@ main>section:nth-child(1)>div:nth-child(2){
     top: 9vw;
     margin: auto;
 }
-main>section:nth-child(1)>div:nth-child(3)>div:nth-child(1)>p{
+main>section:nth-child(2)>div:nth-child(3)>div:nth-child(1)>p{
     color: red;
     font-size: 3vw;
     animation-name: MY-ANIMATION-2;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
-main>section:nth-child(1)>div:nth-child(3)>div:nth-child(1){
+main>section:nth-child(2)>div:nth-child(3)>div:nth-child(1){
     height: fit-content;
     width: fit-content;
     position: absolute;
@@ -70,14 +70,14 @@ main>section:nth-child(1)>div:nth-child(3)>div:nth-child(1){
     left: 32vw;
     margin: auto;
 }
-main>section:nth-child(1)>div:nth-child(3)>div:nth-child(2)>p{
+main>section:nth-child(2)>div:nth-child(3)>div:nth-child(2)>p{
     color: #0D9EFF;
     font-size: 2.5vw;
     animation-name: MY-ANIMATION-2;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
-main>section:nth-child(1)>div:nth-child(3)>div:nth-child(2){
+main>section:nth-child(2)>div:nth-child(3)>div:nth-child(2){
     height: fit-content;
     width: fit-content;
     position: absolute;
@@ -85,14 +85,14 @@ main>section:nth-child(1)>div:nth-child(3)>div:nth-child(2){
     left: 22vw;
     margin: auto;
 }
-main>section:nth-child(1)>div:nth-child(3)>div:nth-child(3)>p{
+main>section:nth-child(2)>div:nth-child(3)>div:nth-child(3)>p{
     color: red;
     font-size: 2.5vw;
     animation-name: MY-ANIMATION-2;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
-main>section:nth-child(1)>div:nth-child(3)>div:nth-child(3){
+main>section:nth-child(2)>div:nth-child(3)>div:nth-child(3){
     height: fit-content;
     width: fit-content;
     position: absolute;
@@ -100,7 +100,7 @@ main>section:nth-child(1)>div:nth-child(3)>div:nth-child(3){
     left: 18vw;
     margin: auto;
 }
-main>section:nth-child(1)>div:nth-child(3)>div:nth-child(4){
+main>section:nth-child(2)>div:nth-child(3)>div:nth-child(4){
     background: url("../images/Social.png");
     background-size: cover;
     height: 3.6vw;
@@ -112,36 +112,36 @@ main>section:nth-child(1)>div:nth-child(3)>div:nth-child(4){
 }
 /*------------------------------------------------------------------------*/
 /*Second Section in main*/
-main>section:nth-child(2)>section:nth-child(2){
+main>section:nth-child(3)>section:nth-child(2){
     height: 10vw;
 }
-main>section:nth-child(2)>section:nth-child(3){
+main>section:nth-child(3)>section:nth-child(3){
     height: 40vw;
     position: relative;
 }
-main>section:nth-child(2)>header{
+main>section:nth-child(3)>header{
     width: 98.5vw;
     height: 40px;
 }
-main>section:nth-child(2)>header:nth-child(1)>h1{
+main>section:nth-child(3)>header:nth-child(1)>h1{
     color: black;
 }
-main>section:nth-child(2)>section:nth-child(2){
+main>section:nth-child(3)>section:nth-child(2){
     height: 15vw;
 }
-main>section:nth-child(2)>section:nth-child(2)>p{
+main>section:nth-child(3)>section:nth-child(2)>p{
     font-size: 1.5vw;
     color: red;
 }
-main>section:nth-child(2)>section:nth-child(2)>article>p{
+main>section:nth-child(3)>section:nth-child(2)>article>p{
     text-align: center;
     font-size: 1.3vw;
 }
-main>section:nth-child(2)>section:nth-child(3){
+main>section:nth-child(3)>section:nth-child(3){
     position: relative;
     height: 35vw;
 }
-main>section:nth-child(2)>section:nth-child(3)>div:nth-child(1){
+main>section:nth-child(3)>section:nth-child(3)>div:nth-child(1){
     background: #cc3ef7;
     clip-path: polygon(29% 2%, 100% 19%, 84% 100%, 9% 95%, 0% 38%);
     height: 40vw;
@@ -151,7 +151,7 @@ main>section:nth-child(2)>section:nth-child(3)>div:nth-child(1){
     left: 4.5vw;
     margin: auto;
 }
-main>section:nth-child(2)>section:nth-child(3)>div:nth-child(1)>div:nth-child(1){
+main>section:nth-child(3)>section:nth-child(3)>div:nth-child(1)>div:nth-child(1){
     background: url("../images/About.png");
     background-size: cover;
     width: 76%;
@@ -163,7 +163,7 @@ main>section:nth-child(2)>section:nth-child(3)>div:nth-child(1)>div:nth-child(1)
     right: 0;
     margin: auto;
 }
-main>section:nth-child(2)>section:nth-child(3)>div:nth-child(2){
+main>section:nth-child(3)>section:nth-child(3)>div:nth-child(2){
     height: 40vw;
     width: 40vw;
     clip-path: polygon(70% 0, 100% 31%, 76% 60%, 100% 100%, 48% 87%, 11% 92%, 1% 51%, 14% 12%);
@@ -172,7 +172,7 @@ main>section:nth-child(2)>section:nth-child(3)>div:nth-child(2){
     bottom: 1vw;
     right: 5vw;
 }
-main>section:nth-child(2)>section:nth-child(3)>div:nth-child(2)>div:nth-child(1){
+main>section:nth-child(3)>section:nth-child(3)>div:nth-child(2)>div:nth-child(1){
     background: url("../images/Education.png");
     background-size: cover;
     width: 62%;
@@ -186,94 +186,94 @@ main>section:nth-child(2)>section:nth-child(3)>div:nth-child(2)>div:nth-child(1)
 }
 /*------------------------------------------------------------------------*/
 /*Third Section inb main*/
-main>section:nth-child(3){
+main>section:nth-child(4){
     height: 290px;
 }
-main>section:nth-child(3)>section:nth-child(2){
+main>section:nth-child(4)>section:nth-child(2){
     height: 120px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-main>section:nth-child(3)>section:nth-child(2)>div{
+main>section:nth-child(4)>section:nth-child(2)>div{
     height: 7vw;
     width: 7vw;
 }
-main>section:nth-child(3)>section:nth-child(2)>div:nth-child(1){
+main>section:nth-child(4)>section:nth-child(2)>div:nth-child(1){
     background: url("../images/java.png");
     background-size: cover;
 }
-main>section:nth-child(3)>section:nth-child(2)>div:nth-child(2){
+main>section:nth-child(4)>section:nth-child(2)>div:nth-child(2){
     background: url("../images/MySql.png");
     background-size: cover;
     width: 13.5vw;
 }
-main>section:nth-child(3)>section:nth-child(2)>div:nth-child(3){
+main>section:nth-child(4)>section:nth-child(2)>div:nth-child(3){
     background: url("../images/HTML.png");
     background-size: cover;
 }
-main>section:nth-child(3)>section:nth-child(2)>div:nth-child(4){
+main>section:nth-child(4)>section:nth-child(2)>div:nth-child(4){
     background: url("../images/CSS.png");
     background-size: cover;
 }
-main>section:nth-child(3)>section:nth-child(2)>div:nth-child(5){
+main>section:nth-child(4)>section:nth-child(2)>div:nth-child(5){
     background: url("../images/javascript.png");
     background-size: cover;
 }
-main>section:nth-child(3)>section:nth-child(3){
+main>section:nth-child(4)>section:nth-child(3){
     height: 120px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-main>section:nth-child(3)>section:nth-child(3)>div{
+main>section:nth-child(4)>section:nth-child(3)>div{
     height: 7vw;
     width: 7vw;
 }
-main>section:nth-child(3)>section:nth-child(3)>div:nth-child(1){
+main>section:nth-child(4)>section:nth-child(3)>div:nth-child(1){
     background: url("../images/hibernete.jpg");
     background-size: cover;
 }
-main>section:nth-child(3)>section:nth-child(3)>div:nth-child(2){
+main>section:nth-child(4)>section:nth-child(3)>div:nth-child(2){
     background: url("../images/figma Logo.png");
     background-size: cover;
     width: 13.5vw;
 }
-main>section:nth-child(3)>section:nth-child(3)>div:nth-child(3){
+main>section:nth-child(4)>section:nth-child(3)>div:nth-child(3){
     background: url("../images/GitHub-Logo.png");
     background-size: cover;
     width: 12.5vw;
 }
-main>section:nth-child(3)>section:nth-child(3)>div:nth-child(4){
+main>section:nth-child(4)>section:nth-child(3)>div:nth-child(4){
     background: url("../images/intellij-idea.png");
     background-size: cover;
 }
-main>section:nth-child(3)>section:nth-child(3)>div:nth-child(5){
+main>section:nth-child(4)>section:nth-child(3)>div:nth-child(5){
     background: url("../images/Gimp.png");
     background-size: cover;
     width: 13.5vw;
 }
 /*------------------------------------------------------------------------*/
 /*Fourth section in main*/
-main>section:nth-child(4)>section:nth-child(2){
+main>section:nth-child(5)>section:nth-child(2){
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-main>section:nth-child(4)>section:nth-child(2)>div:nth-child(1){
+main>section:nth-child(5)>section:nth-child(2)>div:nth-child(1){
     height:10vw;
     width: 15vw;
     background: url("../images/service1.png");
     background-size: cover;
 }
-main>section:nth-child(4)>section:nth-child(2)>div:nth-child(2){
+main>section:nth-child(5)>section:nth-child(2)>div:nth-child(2){
     height:10vw;
     width: 19vw;
     background: url("../images/Service2.png");
     background-size: cover;
 }
-main>section:nth-child(4)>section:nth-child(2)>div:nth-child(3){
+main>section:nth-child(5)>section:nth-child(2)>div:nth-child(3){
     height:10vw;
     width: 17vw;
     background: url("../images/service3.png");
@@ -281,20 +281,20 @@ main>section:nth-child(4)>section:nth-child(2)>div:nth-child(3){
 }
 /*------------------------------------------------------------------------*/
 /*Fifth Section in main*/
-main>section:nth-child(5){
+main>section:nth-child(6){
     height: 25vw;
     width: 98vw;
 }
-main>section:nth-child(5)>section:nth-child(2){
+main>section:nth-child(6)>section:nth-child(2){
     height: 85%;
     width: 100%;
     position: relative;
 }
-main>section:nth-child(5)>section:nth-child(2)>a>div{
+main>section:nth-child(6)>section:nth-child(2)>a>div{
     height: 90%;
     width: calc(100% /3 );
 }
-main>section:nth-child(5)>section:nth-child(2)>a:nth-child(1)>div:nth-child(1){
+main>section:nth-child(6)>section:nth-child(2)>a:nth-child(1)>div:nth-child(1){
     background: url("../images/Java-Projects.png");
     background-size: cover;
     position: absolute;
@@ -303,11 +303,11 @@ main>section:nth-child(5)>section:nth-child(2)>a:nth-child(1)>div:nth-child(1){
     bottom: 0;
     margin: auto;
 }
-main>section:nth-child(5)>section:nth-child(2)>a:nth-child(1)>div:nth-child(1):hover{
+main>section:nth-child(6)>section:nth-child(2)>a:nth-child(1)>div:nth-child(1):hover{
     height: 15vw;
     width: 30vw;
 }
-main>section:nth-child(5)>section:nth-child(2)>a:nth-child(2)>div:nth-child(1){
+main>section:nth-child(6)>section:nth-child(2)>a:nth-child(2)>div:nth-child(1){
     background: url("../images/clipart724392.png");
     background-size: cover;
     position: absolute;
@@ -316,11 +316,11 @@ main>section:nth-child(5)>section:nth-child(2)>a:nth-child(2)>div:nth-child(1){
     left: calc(100% /3);
     margin: auto;
 }
-main>section:nth-child(5)>section:nth-child(2)>a:nth-child(2)>div:nth-child(1):hover{
+main>section:nth-child(6)>section:nth-child(2)>a:nth-child(2)>div:nth-child(1):hover{
     height: 15vw;
     width: 30vw;
 }
-main>section:nth-child(5)>section:nth-child(2)>a:nth-child(3)>div:nth-child(1){
+main>section:nth-child(6)>section:nth-child(2)>a:nth-child(3)>div:nth-child(1){
     background: url("../images/Python.png");
     height: 70%;
     background-size: cover;
@@ -330,13 +330,13 @@ main>section:nth-child(5)>section:nth-child(2)>a:nth-child(3)>div:nth-child(1){
     right: 0;
     margin: auto;
 }
-main>section:nth-child(5)>section:nth-child(2)>a:nth-child(3)>div:nth-child(1):hover{
+main>section:nth-child(6)>section:nth-child(2)>a:nth-child(3)>div:nth-child(1):hover{
     height: 14vw;
     width: 30vw;
 }
 /*------------------------------------------------------------------------*/
 /*sixth section in main*/
-main>section:nth-child(6)>section:nth-child(2){
+main>section:nth-child(7)>section:nth-child(2){
     width: 98vw;
     height: 70vw;
     display: grid;
@@ -344,68 +344,68 @@ main>section:nth-child(6)>section:nth-child(2){
     grid-template-columns: repeat(5,1fr);
     gap: 9px;
 }
-main>section:nth-child(6)>section:nth-child(2)>div{
+main>section:nth-child(7)>section:nth-child(2)>div{
     border: 1px solid red;
 }
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(1){
+main>section:nth-child(7)>section:nth-child(2)>div:nth-child(1){
     background: url("../images/3bf2e921-2b4f-42f7-9d5b-b277a1b47dbe.jpg");
     grid-row:1/3;
     grid-column: 1/2;
     background-size: cover;
     margin-top: 0.5vw;
 }
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(2){
+main>section:nth-child(7)>section:nth-child(2)>div:nth-child(2){
     background: url("../images/891ac053-534d-4bff-ac9a-56f55a890335.jpg");
     background-size: cover;
     margin-top: 0.5vw;
     grid-row:1/3;
     grid-column: 2/4;
 }
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(3){
+main>section:nth-child(7)>section:nth-child(2)>div:nth-child(3){
     background: url("../images/20220228_182243.jpg");
     background-size: cover;
     margin-top: 0.5vw;
     grid-row:1/3;
     grid-column: 4/5;
 }
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(4){
+main>section:nth-child(7)>section:nth-child(2)>div:nth-child(4){
     background: url("../images/268360047_1391465557978657_3920844286985635606_n.jpg");
     background-size: cover;
     margin-top: 0.5vw;
     grid-row:1/3;
     grid-column: 5/6;
 }
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(5){
+main>section:nth-child(7)>section:nth-child(2)>div:nth-child(5){
     background: url("../images/a9219258-fa1a-42ae-8f5d-ee32f205786f.jpg");
     background-size: cover;
     grid-row:3/5;
     grid-column: 1/2;
 }
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(6){
+main>section:nth-child(7)>section:nth-child(2)>div:nth-child(6){
     background: url("../images/IMG-20200930-WA00h04.jpg");
     background-size: cover;
     grid-row:3/5;
     grid-column: 5/6;
 }
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(7){
+main>section:nth-child(7)>section:nth-child(2)>div:nth-child(7){
     background: url("../images/WhatsApp Image 2022-09-29 at 22.16.45.jpeg");
     background-size: cover;
     grid-row:3/5;
     grid-column: 2/3;
 }
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(8){
+main>section:nth-child(7)>section:nth-child(2)>div:nth-child(8){
     background: url("../images/WhatsApp Image 2022-09-29 at 22.16.45 (1).jpeg");
     background-size: cover;
     grid-row:3/5;
     grid-column: 3/5;
 }
 /*----------------------------------------------------------------*/
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(9){
+main>section:nth-child(7)>section:nth-child(2)>div:nth-child(9){
     overflow: hidden;
     grid-row:5/7;
     grid-column: 1/3;
 }
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(9)>div:nth-child(1){
+main>section:nth-child(7)>section:nth-child(2)>div:nth-child(9)>div:nth-child(1){
     height: 100%;
     width: 400%;
     display: flex;
@@ -415,32 +415,32 @@ main>section:nth-child(6)>section:nth-child(2)>div:nth-child(9)>div:nth-child(1)
     animation-direction: alternate;
     animation-timing-function: linear;
 }
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(9)>div:nth-child(1)>div{
+main>section:nth-child(7)>section:nth-child(2)>div:nth-child(9)>div:nth-child(1)>div{
     height: 100%;
     width: 100%;
 }
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(9)>div:nth-child(1)>div:nth-child(1){
+main>section:nth-child(7)>section:nth-child(2)>div:nth-child(9)>div:nth-child(1)>div:nth-child(1){
     background: url("../images/IMG-20190625-WA0009.jpg");
     background-size: cover;
     background-position: center;
 }
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(9)>div:nth-child(1)>div:nth-child(2){
+main>section:nth-child(7)>section:nth-child(2)>div:nth-child(9)>div:nth-child(1)>div:nth-child(2){
     background: url("../images/FB_IMG_1556113044729.jpg");
     background-size: cover;
     background-position: center;
 }
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(9)>div:nth-child(1)>div:nth-child(3){
+main>section:nth-child(7)>section:nth-child(2)>div:nth-child(9)>div:nth-child(1)>div:nth-child(3){
     background: url("../images/FB_IMG_1556113053114.jpg");
     background-size: cover;
     background-position: center;
 }
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(9)>div:nth-child(1)>div:nth-child(4){
+main>section:nth-child(7)>section:nth-child(2)>div:nth-child(9)>div:nth-child(1)>div:nth-child(4){
     background: url("../images/WhatsApp Image 2022-10-10 at 02.14.07 (1).jpeg");
     background-size: cover;
     background-position: center;
 }
 /*------------------------------------------------------------------*/
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(10){
+main>section:nth-child(7)>section:nth-child(2)>div:nth-child(10){
     background: url("../images/IMG-20200929-WA0059.jpg");
     background-size: cover;
     grid-row:5/7;
@@ -448,23 +448,23 @@ main>section:nth-child(6)>section:nth-child(2)>div:nth-child(10){
 }
 /*------------------------------------------------------------------------*/
 /*Last section in main*/
-main>section:nth-child(7) {
+main>section:nth-child(8) {
     background: #928989;
     height: 30vh;
     width: 98vw;
     position: relative;
 }
-main>section:nth-child(7)>h3:nth-child(1){
+main>section:nth-child(8)>h3:nth-child(1){
     color: white;
     position: absolute;
     top: 4%;
     margin: auto;
 }
-main>section:nth-child(7)>section:nth-child(2){
+main>section:nth-child(8)>section:nth-child(2){
     height: 100%;
     width: calc(100% /3);
 }
-main>section:nth-child(7)>section:nth-child(2)>div:nth-child(1){
+main>section:nth-child(8)>section:nth-child(2)>div:nth-child(1){
     background: url("../images/post-box.png");
     background-size: cover;
     height: 4vw;
@@ -473,7 +473,7 @@ main>section:nth-child(7)>section:nth-child(2)>div:nth-child(1){
     top: 20%;
     left: 1%;
 }
-main>section:nth-child(7)>section:nth-child(2)>p:nth-child(2){
+main>section:nth-child(8)>section:nth-child(2)>p:nth-child(2){
     color: white;
     position: absolute;
     top: 20%;
@@ -481,7 +481,7 @@ main>section:nth-child(7)>section:nth-child(2)>p:nth-child(2){
     margin: auto;
     font-size: 1vw;
 }
-main>section:nth-child(7)>section:nth-child(2)>section:nth-child(3){
+main>section:nth-child(8)>section:nth-child(2)>section:nth-child(3){
     height: 10vh;
     width: 20vw;
     display: flex;
@@ -491,27 +491,27 @@ main>section:nth-child(7)>section:nth-child(2)>section:nth-child(3){
     top: 20%;
     left: 16%;
 }
-main>section:nth-child(7)>section:nth-child(2)>section:nth-child(3)>a>div{
+main>section:nth-child(8)>section:nth-child(2)>section:nth-child(3)>a>div{
     height: 4vw;
     width: 4vw;
 }
-main>section:nth-child(7)>section:nth-child(2)>section:nth-child(3)>a:nth-child(1)>div:nth-child(1){
+main>section:nth-child(8)>section:nth-child(2)>section:nth-child(3)>a:nth-child(1)>div:nth-child(1){
     background: url("../images/teli.png");
     background-size: cover;
 }
-main>section:nth-child(7)>section:nth-child(2)>section:nth-child(3)>a:nth-child(2)>div:nth-child(1){
+main>section:nth-child(8)>section:nth-child(2)>section:nth-child(3)>a:nth-child(2)>div:nth-child(1){
     background: url("../images/Whatsapp.png");
     background-size: cover;
 }
-main>section:nth-child(7)>section:nth-child(2)>section:nth-child(3)>a:nth-child(3)>div:nth-child(1){
+main>section:nth-child(8)>section:nth-child(2)>section:nth-child(3)>a:nth-child(3)>div:nth-child(1){
     background: url("../images/Telegram.png");
     background-size: cover;
 }
-main>section:nth-child(7)>section:nth-child(2)>section:nth-child(3)>a:nth-child(4)>div:nth-child(1){
+main>section:nth-child(8)>section:nth-child(2)>section:nth-child(3)>a:nth-child(4)>div:nth-child(1){
     background: url("../images/email_gmail.png");
     background-size: cover;
 }
-main>section:nth-child(7)>section:nth-child(2)>section:nth-child(4){
+main>section:nth-child(8)>section:nth-child(2)>section:nth-child(4){
     height: 10vh;
     width: 20vw;
     display: flex;
@@ -521,28 +521,28 @@ main>section:nth-child(7)>section:nth-child(2)>section:nth-child(4){
     top: 47%;
     left: 16%;
 }
-main>section:nth-child(7)>section:nth-child(2)>section:nth-child(4)>a>div{
+main>section:nth-child(8)>section:nth-child(2)>section:nth-child(4)>a>div{
     height: 4vw;
     width: 4vw;
 }
-main>section:nth-child(7)>section:nth-child(2)>section:nth-child(4)>a:nth-child(1)>div:nth-child(1){
+main>section:nth-child(8)>section:nth-child(2)>section:nth-child(4)>a:nth-child(1)>div:nth-child(1){
     background: url("../images/GitHub-Logo.png");
     background-size: cover;
 }
-main>section:nth-child(7)>section:nth-child(2)>section:nth-child(4)>a:nth-child(2)>div:nth-child(1){
+main>section:nth-child(8)>section:nth-child(2)>section:nth-child(4)>a:nth-child(2)>div:nth-child(1){
     background: url("../images/linkedin.png");
     background-size: cover;
 }
-main>section:nth-child(7)>section:nth-child(2)>section:nth-child(4)>a:nth-child(3)>div:nth-child(1){
+main>section:nth-child(8)>section:nth-child(2)>section:nth-child(4)>a:nth-child(3)>div:nth-child(1){
     background: url("../images/Facebook.png");
     background-size: cover;
 }
-main>section:nth-child(7)>section:nth-child(2)>section:nth-child(4)>a:nth-child(4)>div:nth-child(1){
+main>section:nth-child(8)>section:nth-child(2)>section:nth-child(4)>a:nth-child(4)>div:nth-child(1){
     background: url("../images/instagram.png");
     background-size: cover;
 }
 /*--------------------------------------------------*/
-main>section:nth-child(7)>section:nth-child(3){
+main>section:nth-child(8)>section:nth-child(3){
     width: calc(100% /3);
     height: 35vh;
     position: absolute;
@@ -550,7 +550,7 @@ main>section:nth-child(7)>section:nth-child(3){
     top: 0;
     left: calc(100%/3);
 }
-main>section:nth-child(7)>section:nth-child(3)>form{
+main>section:nth-child(8)>section:nth-child(3)>form{
     position: absolute;
     color: white;
     top: 4%;
@@ -558,15 +558,15 @@ main>section:nth-child(7)>section:nth-child(3)>form{
     width: 100%;
     height: 100%;
 }
-main>section:nth-child(7)>section:nth-child(3)>form>fieldset>input:nth-child(4){
+main>section:nth-child(8)>section:nth-child(3)>form>fieldset>input:nth-child(4){
     width: 100%;
 }
-main>section:nth-child(7)>section:nth-child(3)>form>fieldset>textarea:nth-child(8){
+main>section:nth-child(8)>section:nth-child(3)>form>fieldset>textarea:nth-child(8){
     width: 100%;
     height: 70%;
 }
 /*---------------------------------------------------------------*/
-main>section:nth-child(7)>section:nth-child(4){
+main>section:nth-child(8)>section:nth-child(4){
     position: absolute;
     width: calc(100% /3);
     height: 35vh;
@@ -574,7 +574,7 @@ main>section:nth-child(7)>section:nth-child(4){
     top: 0;
     margin: auto;
 }
-main>section:nth-child(7)>section:nth-child(4)>div{
+main>section:nth-child(8)>section:nth-child(4)>div{
     background: url("../images/MyLogo.png");
     background-size: cover;
     height: 9vw;
@@ -584,7 +584,7 @@ main>section:nth-child(7)>section:nth-child(4)>div{
     right: 15%;
     margin: auto;
 }
-main>section:nth-child(7)>section:nth-child(4)>p{
+main>section:nth-child(8)>section:nth-child(4)>p{
     font-size: 1vw;
     color: white;
     position: absolute;
@@ -613,7 +613,7 @@ footer>div{
 }
 /*------------------------------------------------------------------------*/
 /*Div in main*/
-main>a:nth-child(8)>div:first-of-type{
+main>a:nth-child(9)>div:first-of-type{
     height: 40px;
     width: 39px;
     border-radius: 100%;
@@ -623,7 +623,7 @@ main>a:nth-child(8)>div:first-of-type{
     right: 1vw;
     bottom: 8vh ;
 }
-main>a:nth-child(9)>div{
+main>a:nth-child(10)>div{
     position: fixed;
     top: 84vh;
     left: 2vw;
@@ -636,7 +636,7 @@ main>a:nth-child(9)>div{
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
-main>a:nth-child(9)>div:nth-child(1)>i{
+main>a:nth-child(10)>div:nth-child(1)>i{
     font-size: 30px;
     align-items: center;
     justify-content: center;
@@ -644,7 +644,7 @@ main>a:nth-child(9)>div:nth-child(1)>i{
     height: 100%;
     color: black;
 }
-main>a:nth-child(10)>div:nth-child(1){
+main>a:nth-child(11)>div:nth-child(1){
     height: 50px;
     width: 50px;
     background: red;
@@ -653,7 +653,7 @@ main>a:nth-child(10)>div:nth-child(1){
     top: 75vh;
     left: 2vw;
 }
-main>a:nth-child(10)>div:nth-child(1)>i:nth-child(1){
+main>a:nth-child(11)>div:nth-child(1)>i:nth-child(1){
     font-size: 30px;
     align-items: center;
     justify-content: center;
@@ -749,4 +749,22 @@ main>a:nth-child(10)>div:nth-child(1)>i:nth-child(1){
     nav>ul>li{
         font-size: 6px;
     }
+}
+#loadingPage{
+    width: 98vw;
+    height: 100vh;
+    background: black;
+    position: relative;
+}
+#loadingPage>div:nth-child(1){
+    background: url("../images/loader.gif");
+    background-size: cover;
+    width: 25vw;
+    height: 10vw;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }

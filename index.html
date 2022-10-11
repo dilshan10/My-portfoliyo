@@ -29,6 +29,9 @@
         </nav>
     </header>
     <main>
+        <div id="loadingPage">
+            <div></div>
+        </div>
         <section>
             <div></div>
             <div></div>
@@ -169,9 +172,16 @@
         <a href="#heder"><div></div></a>
         <a href="tel:+94754313114"><div><i class="fa-solid fa-phone"></i></div></a>
         <a href="mail:superdilshan999@gmail.com"><div><i class="fa-solid fa-message"></i></div></a>
+
     </main>
     <footer>
         <div></div>
     </footer>
     </body>
+<script src="asserts/js/jquery-3.6.1.min.js"></script>
+<script>
+    $(window).on('load',function () {
+        $('#loadingPage').fadeOut(5000);
+    })
+</script>
 </html>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pos System</title>
+    <title>Pos System/Customer</title>
     <link rel="stylesheet" href="../asserts/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
@@ -162,11 +162,11 @@
         CustomerDetails.push(Customer);
         loadAllCustomer();
         bindRowClickEvents();
+        clickRemove();
     });
+    $('#btnCusDelete').click(function () {
 
-    $('#btn-clear1').click(function () {
-        $('#tblCustomer').empty();
-    });
+    })
 
     function bindRowClickEvents() {
         $("#tblCustomer>tr").click(function () {
@@ -184,6 +184,36 @@
 
         });
     }
+    function clickRemove() {
+        $('#tblCustomer>tr').dblclick(function () {
+            $(this).remove();
+        })
+    }
+    $('#txtCustID,#txtCustName,#txtCustAddress,#txtCustTelNumber').keydown(function (event) {
+        if (event.key == "Tab"){
+            event.preventDefault()
+        }
+    });
+    $('#txtCustID').keydown(function (event) {
+        if (event.key=="Enter"){
+            $('#txtCustName').focus();
+        }
+    });
+    $('#txtCustName').keydown(function (event) {
+        if (event.key=="Enter"){
+            $('#txtCustAddress').focus()
+        }
+    });
+    $('#txtCustAddress').keydown(function (event) {
+        if (event.key=="Enter") {
+            $('#txtCustTelNumber').focus()
+        }
+    })
+    $('#txtCustTelNumber').keydown(function (event) {
+        if (event.key=="Enter") {
+            $('#btnCustomer').focus()
+        }
+    })
 
 </script>
 </body>

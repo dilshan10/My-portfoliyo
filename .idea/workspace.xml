@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b144a01d-24f2-4583-8bb9-b0064653fb1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/asserts/images/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/js/jquery-3.6.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assi.html" beforeDir="false" afterPath="$PROJECT_DIR$/assi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/asserts/CSS/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/CustomerForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/CustomerForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/ItemForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/ItemForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/PlaceOrderForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/PlaceOrderForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +36,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -47,7 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/asserts/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/asserts/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -56,19 +63,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\js" />
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\images" />
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\CSS" />
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\Frameworks\pos\asserts\js" />
+      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\JS\Calculator\asserts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\JS\Calculator\asserts\image" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\Frameworks\pos\asserts\bootstrap" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\Frameworks\pos" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\Frameworks\case_1" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\Basics" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\images" />
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\CSS" />
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\Frameworks\pos\asserts\js" />
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\JS\Calculator\asserts" />
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\JS\SPA\asserts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -200,7 +207,8 @@
       <workItem from="1665162876236" duration="7119000" />
       <workItem from="1665295139483" duration="3629000" />
       <workItem from="1665331604007" duration="10584000" />
-      <workItem from="1665413264996" duration="16512000" />
+      <workItem from="1665413264996" duration="16804000" />
+      <workItem from="1665482154940" duration="20076000" />
     </task>
     <servers />
   </component>

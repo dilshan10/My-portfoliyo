@@ -87,7 +87,7 @@
                             </div>
                             <div class="col">
                                 <div class="mb-3">
-                                    <button type="button" class="btn btn-success">Purchese</button></div>
+                                    <button type="button" class="btn btn-success" id="btnPurchese">Purchese</button></div>
                             </div>
                         </div>
                     </div>
@@ -225,7 +225,7 @@
     function loadAllItem(){
         clar();
         for(var i of OrderItemDetails){
-            $('#tblOrder').append('<tr><td>'+i.id+'</td><td>'+i.name+'</td><td>'+ i.Qty+'</td><td>'+i.price+'</td></tr>')
+            $('#tblOrder').append('<tr><td></td><td>'+i.id+'</td><td>'+i.name+'</td><td>'+ i.Qty+'</td><td>'+i.price+'</td></tr>')
         }
     }
 
@@ -243,7 +243,49 @@
         }
         OrderItemDetails.push(item);
         loadAllItem();
+        bindRowClickEvents();
+        clickRemove();
     })
+
+    function bindRowClickEvents() {
+        $('#tblOrder>tr').click(function () {
+            let id = $(this).children(":eq(1)").text();
+            let name = $(this).children(":eq(2)").text();
+            let qty = $(this).children(":eq(3)").text();
+            let price = $(this).children(":eq(4)").text();
+
+            $('#txtItemCode').val(id);
+            $('#txtItemName').val(name);
+            $('#txtOrderQTY').val(qty);
+            $('#txtItemPrice').val(price);
+        })
+    }
+
+    function clickRemove() {
+        $('#tblOrder>tr').dblclick(function (event) {
+            $(this).remove();
+        })
+    }
+    $(document).keydown(function (event) {
+        if (event.key == "Tab"){
+            event.preventDefault()
+        }
+    });
+    $('#txtCustID').keydown(function (event) {
+        if (event.key=="Enter") {
+            $('#txtItemCode').focus();
+        }
+    });
+    $('#txtItemCode').keydown(function (event) {
+        if (event.key=="Enter") {
+            $('#txtOrderQTY').focus();
+        }
+    });
+    $('#txtOrderQTY').keydown(function (event) {
+        if (event.key=="Enter") {
+            $('#btnAddItem').focus();
+        }
+    });
 </script>
 </body>
 </html>

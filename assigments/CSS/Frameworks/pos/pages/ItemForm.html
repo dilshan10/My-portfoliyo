@@ -161,11 +161,60 @@
 
         ItemDetails.push(item);
         loadAllCustomer();
+        bindRowClickEvents();
+        clickRmove();
     })
 
     $('#btn-clear1').click(function () {
         $('#tblItem').empty();
     })
+
+    function bindRowClickEvents(){
+        $('#tblItem>tr').click(function () {
+            let id = $(this).children(":eq(0)").text();
+            let name = $(this).children(":eq(1)").text();
+            let Qty = $(this).children(":eq(2)").text();
+            let price = $(this).children(":eq(3)").text();
+
+            $('#txtItemID').val(id);
+            $('#txtItemName').val(name);
+            $('#txtQTY').val(Qty);
+            $('#txtItemPrice').val(price);
+        })
+    }
+
+    function clickRmove() {
+        $('#tblItem>tr').dblclick(function () {
+            $(this).remove()
+        })
+    }
+
+    $('#txtItemID,#txtItemName,#txtQTY,#txtPrice').keydown(function (event) {
+        if (event.key == "Tab"){
+            event.preventDefault()
+        }
+    });
+
+    $('#txtItemID').keydown(function (event) {
+        if (event.key=="Enter") {
+            $('#txtItemName').focus()
+        }
+    });
+    $('#txtItemName').keydown(function (event) {
+        if (event.key=="Enter") {
+            $('#txtQTY').focus();
+        }
+    });
+    $('#txtQTY').keydown(function (event) {
+        if (event.key=="Enter") {
+            $('#txtPrice').focus();
+        }
+    });
+    $('#txtPrice').keydown(function (event) {
+        if (event.key=="Enter") {
+            $('#btnItem').focus();
+        }
+    });
 </script>
 </body>
 </html>
