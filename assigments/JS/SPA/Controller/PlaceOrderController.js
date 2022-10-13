@@ -80,25 +80,30 @@ function loadAllItem(){
 }
 
 $('#btnAddOrderItem').click(function () {
-    let itemID = $('#selectItemID').val();
-    let itemName = $('#ItemNameOrder').val();
     let itemQTY = $('#OrderQTYOrder').val();
-    let itemPrice = $('#ItemPriceOrder').val();
+    if (itemQTY<=$('#QTYonHandOrder').val()){
+        let itemID = $('#selectItemID').val();
+        let itemName = $('#ItemNameOrder').val();
+        let itemPrice = $('#ItemPriceOrder').val();
 
-    let Allprice = itemQTY * itemPrice;
+        let Allprice = itemQTY * itemPrice;
 
-    item ={
-        id : itemID,
-        name : itemName,
-        Qty : itemQTY,
-        price : Allprice
+        item ={
+            id : itemID,
+            name : itemName,
+            Qty : itemQTY,
+            price : Allprice
+        }
+        OrderItemDetails.push(item);
+        loadAllItem();
+        bindRowClickEvents();
+        clickRemove();
+        setTotal();
+        clarItemfeilds();
+    }else {
+        alert("Qty not in stors..!");
     }
-    OrderItemDetails.push(item);
-    loadAllItem();
-    bindRowClickEvents();
-    clickRemove();
-    setTotal();
-    clarItemfeilds();
+
 })
 
 function bindRowClickEvents() {
@@ -221,7 +226,8 @@ $('#Discount').on('keyup',function (event) {
     if (event.key == "Enter") {
         let total = parseInt($('#Total').val());
         let discount = parseInt($('#Discount').val());
-        let subtotal = total-discount;
+        let dicValue = (total*discount)/100;
+        let subtotal = total-dicValue;
         $('#SubTotal').val(subtotal);
         $('#Cash').focus();
     }

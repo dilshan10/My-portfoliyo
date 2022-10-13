@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b144a01d-24f2-4583-8bb9-b0064653fb1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assigments/JS/SPA/Controller/CustomerController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/JS/SPA/Controller/DashBordController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/JS/SPA/Controller/ItemController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/JS/SPA/Controller/PlaceOrderController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/JS/SPA/db/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/JS/SPA/models/Customer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/JS/SPA/models/Item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/JS/SPA/models/Order.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/CustomerForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/CustomerForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/ItemForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/ItemForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/PlaceOrderForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/CSS/Frameworks/pos/pages/PlaceOrderForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/JS/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/JS/SPA/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigments/JS/SPA/Controller/PlaceOrderController.js" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/JS/SPA/Controller/PlaceOrderController.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +205,7 @@
       <workItem from="1665482154940" duration="20747000" />
       <workItem from="1665561597831" duration="36372000" />
       <workItem from="1665638018699" duration="8178000" />
-      <workItem from="1665663555876" duration="22601000" />
+      <workItem from="1665663555876" duration="23871000" />
     </task>
     <servers />
   </component>
