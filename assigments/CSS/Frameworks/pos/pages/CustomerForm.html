@@ -57,7 +57,7 @@
             <div class="col">
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-success" type="submit">Search</button>
+                    <button class="btn btn-success"  type="button">Search</button>
                 </form>
             </div>
         </div>
@@ -70,13 +70,15 @@
                         <div class="col">
                             <div class="mb-3">
                                 <label for="txtCustID" class="form-label">Customer ID</label>
-                                <input type="email" class="form-control" id="txtCustID" aria-describedby="emailHelp">
+                                <input class="form-control" id="txtCustID" aria-describedby="emailHelp">
+                                <span class="control-error" id="lblcustId"></span>
                             </div>
                         </div>
                         <div class="col">
                             <div class="mb-3">
                                 <label for="txtCustName" class="form-label">Customer Name</label>
-                                <input type="email" class="form-control" id="txtCustName" aria-describedby="emailHelp">
+                                <input class="form-control" id="txtCustName" aria-describedby="emailHelp">
+                                <span class="control-error" id="lblcustName"></span>
                             </div>
                         </div>
                     </div>
@@ -84,13 +86,15 @@
                         <div class="col">
                             <div class="mb-3">
                                 <label for="txtCustAddress" class="form-label">Customer address</label>
-                                <input type="email" class="form-control" id="txtCustAddress" aria-describedby="emailHelp">
+                                <input class="form-control" id="txtCustAddress" aria-describedby="emailHelp">
+                                <span class="control-error" id="lblcustAddrss"></span>
                             </div>
                         </div>
                         <div class="col">
                             <div class="mb-3">
                                 <label for="txtCustTelNumber" class="form-label">Customer Tel-Number</label>
-                                <input type="email" class="form-control" id="txtCustTelNumber" aria-describedby="emailHelp">
+                                <input class="form-control" id="txtCustTelNumber" aria-describedby="emailHelp">
+                                <span class="control-error" id="lblcustTell"></span>
                             </div>
                         </div>
                     </div>
@@ -103,8 +107,7 @@
                     <button class="btn btn-primary" id="btnCustomer">Save Customer</button>
                     <button class="btn btn-danger" id="btnCusDelete">Remove</button>
                     <button class="btn btn-warning" id="btnUpdate">Update</button>
-                    <button class="btn btn-success">Get All</button>
-                    <button class="btn btn-danger" id="btn-clear1">Clear All</button>
+                    <button class="btn btn-danger" id="btn-clear">Clear All</button>
                 </div>
             </div>
         </div>
@@ -131,90 +134,255 @@
 </section>
 <script src="../asserts/bootstrap/js/bootstrap.min.js"></script>
 <script src="../asserts/js/jquery-3.6.1.min.js"></script>
-<script>
-    var Customer;
-    var CustomerDetails = [];
+<!--<script>-->
+<!--    var Customer;-->
+<!--    var CustomerDetails = [];-->
 
-    function clear() {
-        $('#tblCustomer').empty();
-    }
-    function loadAllCustomer(){
-        clear();
-        for (var i of CustomerDetails){
+<!--    $('#txtCustID').focus();-->
 
-            $('#tblCustomer').append('<tr><td>'+i.id+'</td><td>'+i.name+'</td><td>'+i.Address+'</td><td>'+i.telnum+'</td></tr>')
-        }
-    }
+<!--    const custIDregEx = /^(C00-)[0-9]{3}$/;-->
+<!--    const custNameregEx = /^[A-z/ ]{5,30}$/;-->
+<!--    const custAddresssregEx = /^[0-9 A-z. ,/]{5,}$/;-->
+<!--    const custTellregEx = /^[0-9]{10}$/;-->
 
-    $('#btnCustomer').click(function () {
-        let custId = $('#txtCustID').val();
-        let CustName = $('#txtCustName').val();
-        let CustAddress = $('#txtCustAddress').val();
-        let Custtell = $('#txtCustTelNumber').val();
+<!--    let CustomerVali = [];-->
 
-        Customer = {
-            id :custId,
-            name:CustName,
-            Address:CustAddress,
-            telnum:Custtell
-        }
+<!--    CustomerVali.push({reg:custIDregEx,field:$('#txtCustID'),error:'Customer Id is not match to Valied Patten :C00-001'});-->
+<!--    CustomerVali.push({reg:custNameregEx,field: $('#txtCustName'),error:'Customer Name is Not match To Valied Patten :Chathuranga dilshan'});-->
+<!--    CustomerVali.push({reg:custAddresssregEx,field:$('#txtCustAddress'),error:'Customer Address is Not match To Valied Patten:103/2,kaluthara,kalauthara'});-->
+<!--    CustomerVali.push({reg:custTellregEx,field:$('#txtCustTelNumber'),error:'Customer Tell-Number is Not match To Valied Patten:+94 0764512369'});-->
 
-        CustomerDetails.push(Customer);
-        loadAllCustomer();
-        bindRowClickEvents();
-        clickRemove();
-    });
-    $('#btnCusDelete').click(function () {
+<!--    $('#txtCustID,#txtCustName,#txtCustAddress,#txtCustTelNumber').on('keyup',function () {-->
+<!--        checkValied();-->
+<!--    });-->
 
-    })
+<!--    $('#txtCustID,#txtCustName,#txtCustAddress,#txtCustTelNumber').on('blur',function () {-->
+<!--        checkValied();-->
+<!--    });-->
 
-    function bindRowClickEvents() {
-        $("#tblCustomer>tr").click(function () {
-            let id = $(this).children(":eq(0)").text();
-            let name = $(this).children(":eq(1)").text();
-            let address = $(this).children(":eq(2)").text();
-            let telnum = $(this).children(":eq(3)").text();
-            // console.log(id, name, address, salary);
+<!--    function checkValied() {-->
+<!--        let error = 0;-->
+<!--        for (let validation of CustomerVali){-->
+<!--            if(validation.reg.test(validation.field.val())){-->
+<!--                textSuccess(validation.field,"");-->
+<!--            }else {-->
+<!--                error = error+1;-->
+<!--                setTextError(validation.field,validation.error);-->
+<!--            }-->
+<!--        }-->
+<!--        setButtonState(error);-->
+<!--    }-->
 
-            //setting table details values to text fields
-            $('#txtCustID').val(id);
-            $('#txtCustName').val(name);
-            $('#txtCustAddress').val(address);
-            $('#txtCustTell').val(telnum);
+<!--    function check(regex,field) {-->
+<!--        let inputValue = field.val();-->
+<!--        return regex.test(inputValue) ? true : false;-->
+<!--    }-->
 
-        });
-    }
-    function clickRemove() {
-        $('#tblCustomer>tr').dblclick(function () {
-            $(this).remove();
-        })
-    }
-    $('#txtCustID,#txtCustName,#txtCustAddress,#txtCustTelNumber').keydown(function (event) {
-        if (event.key == "Tab"){
-            event.preventDefault()
-        }
-    });
-    $('#txtCustID').keydown(function (event) {
-        if (event.key=="Enter"){
-            $('#txtCustName').focus();
-        }
-    });
-    $('#txtCustName').keydown(function (event) {
-        if (event.key=="Enter"){
-            $('#txtCustAddress').focus()
-        }
-    });
-    $('#txtCustAddress').keydown(function (event) {
-        if (event.key=="Enter") {
-            $('#txtCustTelNumber').focus()
-        }
-    })
-    $('#txtCustTelNumber').keydown(function (event) {
-        if (event.key=="Enter") {
-            $('#btnCustomer').focus()
-        }
-    })
+<!--    function setTextError(field,error) {-->
+<!--        if (field.val().length <= 0) {-->
+<!--            defaulText(field,"");-->
+<!--        } else {-->
+<!--            field.css('border', '2px solid red');-->
+<!--            field.parent().children('span').text(error);-->
+<!--        }-->
+<!--    }-->
 
-</script>
+<!--    function textSuccess(field,error) {-->
+<!--        if (field.val().length <= 0){-->
+<!--            defaulText(field,"");-->
+<!--        }else {-->
+<!--            field.css('border','2px solid green');-->
+<!--            field.parent().children('span').text(error);-->
+<!--        }-->
+<!--    }-->
+
+<!--    function defaulText(field,error) {-->
+<!--        field.css('border','2px solid red');-->
+<!--        field.parent().children('span').text(error);-->
+<!--    }-->
+
+<!--    function focusText(field) {-->
+<!--        field.focus();-->
+<!--    }-->
+
+<!--    function setButtonState(value){-->
+<!--        if (value>0){-->
+<!--            $("#btnCustomer").attr('disabled',true);-->
+<!--            $("#btnCusDelete").attr('disabled',true);-->
+<!--            $("#btnUpdate").attr('disabled',true);-->
+<!--        }else{-->
+<!--            $("#btnCustomer").attr('disabled',false);-->
+<!--            $("#btnCusDelete").attr('disabled',false);-->
+<!--            $("#btnUpdate").attr('disabled',false);-->
+<!--        }-->
+<!--    }-->
+
+<!--    function clear() {-->
+<!--        $('#tblCustomer').empty();-->
+<!--    }-->
+<!--    function loadAllCustomer(){-->
+<!--        clear();-->
+<!--        for (var i of CustomerDetails){-->
+
+<!--            $('#tblCustomer').append('<tr><td>'+i.id+'</td><td>'+i.name+'</td><td>'+i.Address+'</td><td>'+i.telnum+'</td></tr>')-->
+<!--        }-->
+<!--    }-->
+
+<!--    $('#btnCustomer').click(function () {-->
+<!--        let custId = $('#txtCustID').val();-->
+<!--        let CustName = $('#txtCustName').val();-->
+<!--        let CustAddress = $('#txtCustAddress').val();-->
+<!--        let Custtell = $('#txtCustTelNumber').val();-->
+
+<!--        Customer = {-->
+<!--            id :custId,-->
+<!--            name:CustName,-->
+<!--            Address:CustAddress,-->
+<!--            telnum:Custtell-->
+<!--        }-->
+
+<!--        CustomerDetails.push(Customer);-->
+<!--        loadAllCustomer();-->
+<!--        bindRowClickEvents();-->
+<!--        clickRemove();-->
+<!--    });-->
+<!--    $('#btnCusDelete').click(function () {-->
+
+<!--    })-->
+
+<!--    function bindRowClickEvents() {-->
+<!--        $("#tblCustomer>tr").click(function () {-->
+<!--            let id = $(this).children(":eq(0)").text();-->
+<!--            let name = $(this).children(":eq(1)").text();-->
+<!--            let address = $(this).children(":eq(2)").text();-->
+<!--            let telnum = $(this).children(":eq(3)").text();-->
+
+<!--            $('#txtCustID').val(id);-->
+<!--            $('#txtCustName').val(name);-->
+<!--            $('#txtCustAddress').val(address);-->
+<!--            $('#txtCustTell').val(telnum);-->
+
+<!--        });-->
+<!--    }-->
+<!--    function clickRemove() {-->
+<!--        $('#tblCustomer>tr').dblclick(function () {-->
+<!--            $(this).remove();-->
+<!--        })-->
+<!--    }-->
+<!--    $(document).keydown(function (event) {-->
+<!--        if (event.key == "Tab"){-->
+<!--            event.preventDefault()-->
+<!--        }-->
+<!--    });-->
+<!--    $('#txtCustID').keydown(function (event) {-->
+<!--        if (event.key=="Enter" && check(custIDregEx,$('#txtCustID'))){-->
+<!--            focusText($("#txtCustName"));-->
+<!--        }-->
+<!--    });-->
+<!--    $('#txtCustName').keydown(function (event) {-->
+<!--        if (event.key=="Enter" && check(custNameregEx,$('#txtCustName'))){-->
+<!--            focusText($("#txtCustAddress"));-->
+<!--        }-->
+<!--    });-->
+<!--    $('#txtCustAddress').keydown(function (event) {-->
+<!--        if (event.key=="Enter" && check(custAddresssregEx,$('#txtCustAddress'))) {-->
+<!--            $('#txtCustTelNumber').focus()-->
+<!--        }-->
+<!--    });-->
+<!--    $('#txtCustTelNumber').keydown(function (event) {-->
+<!--        if (event.key=="Enter" && check(custTellregEx,$('#txtCustTell'))) {-->
+<!--            $('#btnCustomer').focus()-->
+<!--        }-->
+<!--    });-->
+
+<!--    $('#btn-clear').click(function () {-->
+<!--        ClearTextFields();-->
+<!--    })-->
+
+<!--    function ClearTextFields() {-->
+<!--        $('#txtCustID,#txtCustName,#txtCustAddress,#txtCustTelNumber').val("");-->
+<!--        checkValied()-->
+<!--    }-->
+
+
+<!--    $('#btnSearch').click(function () {-->
+<!--        let typedId = $('#Search').val();-->
+<!--        let cust = SearchCustomer(typedId);-->
+<!--        if (cust != null){-->
+<!--            setTextfieldValues(cust.id, cust.name, cust.Address, cust.telnum);-->
+<!--        }else {-->
+<!--            alert(typedId+"Not Used...");-->
+<!--            setTextfieldValues("","","","");-->
+<!--        }-->
+<!--    });-->
+
+
+<!--    function setTextfieldValues(id, name, Address, telnum) {-->
+<!--        $("#txtCustID").val(id);-->
+<!--        $("#txtCustName").val(name);-->
+<!--        $("#txtCustAddress").val(Address);-->
+<!--        $("#txtCustTelNumber").val(telnum);-->
+<!--    }-->
+
+
+<!--    function SearchCustomer(CustId) {-->
+<!--        for ( let customer of CustomerDetails){-->
+<!--            if (customer.id == CustId){-->
+<!--                return customer;-->
+<!--            }-->
+<!--        }-->
+<!--        return null;-->
+<!--    }-->
+
+<!--    $('#btnCusDelete').click(function () {-->
+<!--        let typedId = $('#txtCustID').val();-->
+<!--        let option = confirm("Do you Want To delete The Customer ..!");-->
+<!--        if (option){-->
+<!--            if (DeleteCustomer(typedId)) {-->
+<!--                alert("Customer Deleted Successfully !")-->
+<!--                setTextfieldValues("","","","");-->
+<!--            }else {-->
+<!--                alert("Customer not delete");-->
+<!--            }-->
+<!--        }-->
+<!--    });-->
+
+<!--    function DeleteCustomer(CustId) {-->
+<!--        let customer = SearchCustomer(CustId);-->
+<!--        if (customer != null){-->
+<!--            let index = CustomerDetails.indexOf(customer);-->
+<!--            CustomerDetails.splice(index,1);-->
+<!--            loadAllCustomer();-->
+<!--            return true-->
+<!--        }else {-->
+<!--            return false;-->
+<!--        }-->
+<!--    }-->
+
+<!--    $('#btnUpdate').click(function () {-->
+<!--       let typedId = $('#txtCustID').val();-->
+<!--       if (UpdateCustomer(typedId)){-->
+<!--           alert("Customer Update Successfully !")-->
+<!--           setTextfieldValues("","","","")-->
+<!--       }else {-->
+<!--           alert("Not Updated..")-->
+<!--       }-->
+<!--    });-->
+
+<!--    function UpdateCustomer(custId) {-->
+<!--        let customer = SearchCustomer(custId);-->
+<!--        if (customer != null){-->
+<!--            customer.id = $('#txtCustID').val();-->
+<!--            customer.name = $('#txtCustName').val();-->
+<!--            customer.Address = $('#txtCustAddress').val();-->
+<!--            customer.telnum = $('#txtCustTelNumber').val();-->
+<!--            loadAllCustomer();-->
+<!--            return true;-->
+<!--        }else {-->
+<!--            return false;-->
+<!--        }-->
+<!--    }-->
+<!--    -->
+<!--</script>-->
 </body>
 </html>

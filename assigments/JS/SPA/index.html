@@ -36,34 +36,34 @@
     <section style="height: 88vh;width: 100vw;" id="Home">
         <section style="height: 300px;width: 98vw">
             <div class="row">
-                <div class="col" style="height: 100%">
+                <div class="col" style="height: 100%; border: 2px solid red; ">
                     <h4 style="background: red">
                         Customers
                     </h4>
                     <div>
-                        <p style="font-size: 200px">51</p>
+                        <p style="font-size: 200px" id="CustometCount">0</p>
                     </div>
                 </div>
-                <div class="col" style="height: 100%">
+                <div class="col" style="height: 100%; border: 2px solid red;">
                     <h4 style="background: red">
                         Items
                     </h4>
                     <div>
-                        <p style="font-size: 200px">60</p>
+                        <p style="font-size: 200px" id="ItemCount">0</p>
                     </div>
                 </div>
-                <div class="col" style="height: 100%">
+                <div class="col" style="height: 100%; border: 2px solid red;">
                     <h4 style="background: red">
                         Orders
                     </h4>
                     <div>
-                        <p style="font-size: 200px">210</p>
+                        <p style="font-size: 200px" id="OrderCount">0</p>
                     </div>
                 </div>
             </div>
         </section>
     </section>
-    <section id="CustomerForm" style="height: 88vh;width:99vw;margin-top: 1px">
+    <section id="CustomerForm" style="height: 98vh">
         <header style="background: pink">
             <div class="row">
                 <div class="col">
@@ -71,8 +71,8 @@
                 </div>
                 <div class="col">
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-success" type="submit">Search</button>
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="SearchCust">
+                        <button class="btn btn-success"  type="button" id="btnSearchCust">Search</button>
                     </form>
                 </div>
             </div>
@@ -84,42 +84,45 @@
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="CustID1" class="form-label">Customer ID</label>
-                                    <input type="email" class="form-control" id="CustID1" aria-describedby="emailHelp">
+                                    <label for="txtCustomerID" class="form-label">Customer ID</label>
+                                    <input class="form-control" id="txtCustomerID" aria-describedby="emailHelp">
+                                    <span class="control-error" id="lblcustId"></span>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="CustName1" class="form-label">Customer Name</label>
-                                    <input type="email" class="form-control" id="CustName1" aria-describedby="emailHelp">
+                                    <label for="txtCustomerName" class="form-label">Customer Name</label>
+                                    <input class="form-control" id="txtCustomerName" aria-describedby="emailHelp">
+                                    <span class="control-error" id="lblcustName"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="CustAddress" class="form-label">Customer address</label>
-                                    <input type="email" class="form-control" id="CustAddress" aria-describedby="emailHelp">
+                                    <label for="txtCustomerAddress" class="form-label">Customer address</label>
+                                    <input class="form-control" id="txtCustomerAddress" aria-describedby="emailHelp">
+                                    <span class="control-error" id="lblcustAddrss"></span>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="CustTelNumber" class="form-label">Customer Tel-Number</label>
-                                    <input type="email" class="form-control" id="CustTelNumber" aria-describedby="emailHelp">
+                                    <label for="txtCustomerTelNumber" class="form-label">Customer Tel-Number</label>
+                                    <input class="form-control" id="txtCustomerTelNumber" aria-describedby="emailHelp">
+                                    <span class="control-error" id="lblcustTell"></span>
                                 </div>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-            <div class="row" style="height: fit-content; width: 100vw;">
+            <div class="row" style="height: fit-content; width: 98vw;">
                 <div class="col">
                     <div class="btn-group">
-                        <button class="btn btn-primary" id="btnCustomer1">Save Customer</button>
-                        <button class="btn btn-danger" id="btnCusDelete1">Remove</button>
-                        <button class="btn btn-warning" id="btnUpdate1">Update</button>
-                        <button class="btn btn-success">Get All</button>
-                        <button class="btn btn-danger" id="btn-clear2">Clear All</button>
+                        <button class="btn btn-primary" id="btnCustomer">Save Customer</button>
+                        <button class="btn btn-danger" id="btnCusDelete">Remove</button>
+                        <button class="btn btn-warning" id="btnUpdate">Update</button>
+                        <button class="btn btn-danger" id="btnCustclear">Clear All</button>
                     </div>
                 </div>
             </div>
@@ -134,18 +137,9 @@
                             <th scope="col">Customer Tel-number</th>
                         </tr>
                         </thead>
-                        <tbody class="table-group-divider">
+                        <tbody class="table-group-divider" id="tblCustomer1">
                         <tr>
-                            <td>C00-001</td>
-                            <td>Saman Vimalasuriya</td>
-                            <td>Colombo</td>
-                            <td>+94 0754860936</td>
-                        </tr>
-                        <tr>
-                            <td>C00-002</td>
-                            <td>Sumith Perera</td>
-                            <td>Padura</td>
-                            <td>+94 0783659847</td>
+
                         </tr>
                         </tbody>
                     </table>
@@ -161,8 +155,8 @@
                 </div>
                 <div class="col">
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-success" type="submit">Search</button>
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="SearchItem">
+                        <button class="btn btn-success" type="button" id="btnSearchItem">Search</button>
                     </form>
                 </div>
             </div>
@@ -174,28 +168,32 @@
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="ItemID" class="form-label">Item ID</label>
-                                    <input type="email" class="form-control" id="ItemID" aria-describedby="emailHelp">
+                                    <label for="txtItemID" class="form-label">Item ID</label>
+                                    <input  class="form-control" id="txtItemID" aria-describedby="emailHelp">
+                                    <span class="control-error" id="lblItemId"></span>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="ItemName1" class="form-label">Item Name</label>
-                                    <input type="email" class="form-control" id="ItemName1" aria-describedby="emailHelp">
+                                    <label for="txtItemName" class="form-label">Item Name</label>
+                                    <input  class="form-control" id="txtItemName" aria-describedby="emailHelp">
+                                    <span class="control-error" id="lblItemName"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="Price" class="form-label">Price</label>
-                                    <input type="email" class="form-control" id="Price" aria-describedby="emailHelp">
+                                    <label for="txtQTY" class="form-label">Qty On Hand</label>
+                                    <input  class="form-control" id="txtQTY" aria-describedby="emailHelp">
+                                    <span class="control-error" id="lblItemQty"></span>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="QTY" class="form-label">Qty On Hand</label>
-                                    <input type="email" class="form-control" id="QTY" aria-describedby="emailHelp">
+                                    <label for="txtPrice" class="form-label">Price</label>
+                                    <input class="form-control" id="txtPrice" aria-describedby="emailHelp">
+                                    <span class="control-error" id="lblItemPrice"></span>
                                 </div>
                             </div>
                         </div>
@@ -205,11 +203,10 @@
             <div class="row" style="height: fit-content; width: 98vw;">
                 <div class="col">
                     <div class="btn-group">
-                        <button class="btn btn-primary" id="btnCustomer">Save Item</button>
-                        <button class="btn btn-danger" id="btnCusDelete">Remove</button>
-                        <button class="btn btn-warning" id="btnUpdate">Update</button>
-                        <button class="btn btn-success">Get All</button>
-                        <button class="btn btn-danger" id="btn-clear1">Clear All</button>
+                        <button class="btn btn-primary" id="btnItem">Save Item</button>
+                        <button class="btn btn-danger" id="btnDelete">Remove</button>
+                        <button class="btn btn-warning" id="btnItemUpdate">Update</button>
+                        <button class="btn btn-danger" id="btnItemclear">Clear All</button>
                     </div>
                 </div>
             </div>
@@ -220,16 +217,13 @@
                         <tr>
                             <th scope="col">Item ID</th>
                             <th scope="col">Item Name</th>
-                            <th scope="col">Price</th>
                             <th scope="col">QTY On Hand</th>
+                            <th scope="col">Price</th>
                         </tr>
                         </thead>
-                        <tbody class="table-group-divider">
+                        <tbody class="table-group-divider" id="tblItem">
                         <tr>
-                            <td>I00-001</td>
-                            <td>Rice</td>
-                            <td>Rs: 140.00</td>
-                            <td>100 kg</td>
+
                         </tr>
                         </tbody>
                     </table>
@@ -290,7 +284,7 @@
                             </div>
                             <div class="col">
                                 <div class="mb-3">
-                                    <button type="button" class="btn btn-success">Purchese</button></div>
+                                    <button type="button" class="btn btn-success" id="Purchese">Purchese</button></div>
                             </div>
                         </div>
                     </div>
@@ -319,28 +313,28 @@
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="CustID" class="form-label">Customer ID</label>
-                                    <input type="text" class="form-control" id="CustID">
+                                    <label for="selectCusID" class="form-label">Customer ID</label>
+                                    <select class="form-control" id="selectCusID"></select>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="CustName" class="form-label">Customer Name</label>
-                                    <input type="text" class="form-control" id="CustName">
+                                    <label for="CustNameOrder" class="form-label">Customer Name</label>
+                                    <input type="text" class="form-control" id="CustNameOrder">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="CustAddres" class="form-label">Customer Address</label>
-                                    <input type="text" class="form-control" id="CustAddres">
+                                    <label for="CustAddresOrder" class="form-label">Customer Address</label>
+                                    <input type="text" class="form-control" id="CustAddresOrder">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="CustTell" class="form-label">Customer Tel-Number</label>
-                                    <input type="text" class="form-control" id="CustTell">
+                                    <label for="CustTellOrder" class="form-label">Customer Tel-Number</label>
+                                    <input type="text" class="form-control" id="CustTellOrder">
                                 </div>
                             </div>
                         </div>
@@ -354,49 +348,52 @@
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="ItemCode" class="form-label">Item Code</label>
-                                    <input type="text" class="form-control" id="ItemCode" aria-describedby="emailHelp">
+                                    <label for="selectItemID" class="form-label">Item Code</label>
+                                    <select class="form-control" id="selectItemID"></select>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-3,col">
-                                    <label for="ItemName" class="form-label">Item Name</label>
-                                    <input type="text" class="form-control" id="ItemName" aria-describedby="emailHelp">
+                                    <label for="ItemNameOrder" class="form-label">Item Name</label>
+                                    <input type="text" class="form-control" id="ItemNameOrder" aria-describedby="emailHelp">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="ItemPrice" class="form-label">Item Price</label>
-                                    <input type="text" class="form-control" id="ItemPrice">
+                                    <label for="ItemPriceOrder" class="form-label">Item Price</label>
+                                    <input type="text" class="form-control" id="ItemPriceOrder">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="QTYonHand" class="form-label">Qty On Hand</label>
-                                    <input type="text" class="form-control" id="QTYonHand">
+                                    <label for="QTYonHandOrder" class="form-label">Qty On Hand</label>
+                                    <input type="text" class="form-control" id="QTYonHandOrder">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <label for="OrderQTY" class="form-label">Order QTY</label>
-                                    <input type="text" class="form-control" id="OrderQTY">
+                                    <label for="OrderQTYOrder" class="form-label">Order QTY</label>
+                                    <input type="text" class="form-control" id="OrderQTYOrder">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-3">
-                                    <button type="button" class="btn btn-danger">Add Item</button>
+                                    <button type="button" class="btn btn-danger" id="btnAddOrderItem">Add Item</button>
                                 </div>
                             </div>
                         </div>
                     </form>
                 </div>
             </section>
+            <div style="height: 25px;">
+
+            </div>
             <section >
-                <table class="table">
+                <table class="table" >
                     <thead>
                     <tr>
                         <th scope="col">#</th>
@@ -406,61 +403,21 @@
                         <th scope="col">Price</th>
                     </tr>
                     </thead>
-                    <tbody class="table-group-divider">
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>I00-001</td>
-                        <td>Rice</td>
-                        <td>3 kg</td>
-                        <td>Rs.420.00</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>I00-002</td>
-                        <td>Suger</td>
-                        <td>2.5 kg</td>
-                        <td>Rs.250.00</td>
-                    </tr>
+                    <tbody class="table-group-divider" id="tblOrderItems">
+                        <tr></tr>
                     </tbody>
                 </table>
             </section>
         </section>
     </section>
-    <script src="asserts/bootstrap/js/bootstrap.min.js"></script>
-    <script src="asserts/js/jquery-3.6.1.min.js"></script>
-    <script>
-        $('#Home').css("display", "block");
-        $('#CustomerForm').css("display", "none");
-        $('#ItemForm').css("display", "none");
-        $('#PlaceOrderForm').css("display", "none");
-        //-------------------------------------------------
-        $("#HomeBtn").click(function(){
-            $("#Home").css("display", "block");
-            $("#CustomerForm").css("display", "none");
-            $('#ItemForm').css("display", "none");
-            $('#PlaceOrderForm').css("display", "none");
-        });
-        //-------------------------------------------------
-        $('#CustomerBtn').click(function () {
-            $('#Home').css("display", "none");
-            $('#CustomerForm').css("display", "block");
-            $('#ItemForm').css("display", "none");
-            $('#PlaceOrderForm').css("display", "none");
-        })
-        $('#ItemBtn').click(function () {
-            $('#Home').css("display", "none");
-            $('#CustomerForm').css("display", "none");
-            $('#ItemForm').css("display","block");
-            $('#PlaceOrderForm').css("display", "none");
-        })
-        $('#OrdersBtn').click(function () {
-            $('#Home').css("display", "none");
-            $('#CustomerForm').css("display", "none");
-            $('#ItemForm').css("display","none");
-            $('#PlaceOrderForm').css("display", "block");
-        })
-
-    </script>
 </main>
+<script src="asserts/bootstrap/js/bootstrap.min.js"></script>
+<script src="asserts/js/jquery-3.6.1.min.js"></script>
+<script src="Controller/CustomerController.js"></script>
+<script src="Controller/PlaceOrderController.js"></script>
+<script src="Controller/ItemController.js"></script>
+<script src="Controller/DashBordController.js"></script>
+<script src="db/db.js"></script>
+
 </body>
 </html>
