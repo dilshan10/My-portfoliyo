@@ -56,9 +56,6 @@ function defaulText(field,error) {
     field.parent().children('span').text(error);
 }
 
-function focusText(field) {
-    field.focus();
-}
 
 function setButtonState(value){
     if (value>0){
@@ -104,6 +101,7 @@ $('#btnAddOrderItem').click(function () {
             bindRowClickEvents();
             clickRemove();
             setTotal();
+            updateQty();
             clarItemfeilds();
         }else {
             let pQty = parseInt(checkitem.Qty);
@@ -112,6 +110,8 @@ $('#btnAddOrderItem').click(function () {
             checkitem.price = pval+Allprice;
             loadAllItem();
             setTotal();
+            updateQty();
+            clarItemfeilds();
         }
     }else {
         alert("Qty not in stors..!");
@@ -323,4 +323,19 @@ function CreateOrderID(oid) {
         let  newOrid = "R00-"+newOrindex;
         return newOrid;
     }
+}
+
+function updateQty() {
+    let itemid = $('#selectItemID').val();
+    let takeqty = $('#OrderQTYOrder').val();
+
+    console.log(itemid);
+    console.log(takeqty);
+    for (let i of ItemDetails){
+        if (i.id == itemid){
+            let qty = parseInt(i.Qty);
+            i.Qty = qty-takeqty;
+        }
+    }
+    loadAllItems();
 }
