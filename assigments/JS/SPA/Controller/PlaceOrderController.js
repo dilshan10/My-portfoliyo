@@ -80,31 +80,60 @@ function loadAllItem(){
 }
 
 $('#btnAddOrderItem').click(function () {
+    let itemID = $('#selectItemID').val();
     let itemQTY = $('#OrderQTYOrder').val();
-    if (itemQTY<=$('#QTYonHandOrder').val()){
-        let itemID = $('#selectItemID').val();
-        let itemName = $('#ItemNameOrder').val();
-        let itemPrice = $('#ItemPriceOrder').val();
+    let itemName = $('#ItemNameOrder').val();
+    let itemPrice = $('#ItemPriceOrder').val();
+    let Allprice = itemQTY * itemPrice;
+    let qtyonhand = parseInt($('#QTYonHandOrder').val());
 
-        let Allprice = itemQTY * itemPrice;
+    let checkresul = chechequal(itemQTY,qtyonhand);
 
-        item ={
-            id : itemID,
-            name : itemName,
-            Qty : itemQTY,
-            price : Allprice
+    if (checkresul){
+        let checkitem = IDAvitility(itemID);
+        console.log(checkitem);
+        if (checkitem == null) {
+            item = {
+                id: itemID,
+                name: itemName,
+                Qty: itemQTY,
+                price: Allprice
+            };
+            OrderItemDetails.push(item);
+            loadAllItem();
+            bindRowClickEvents();
+            clickRemove();
+            setTotal();
+            clarItemfeilds();
+        }else {
+            let pQty = parseInt(checkitem.Qty);
+            let pval = checkitem.price;
+            checkitem.Qty = pQty+parseInt(itemQTY);
+            checkitem.price = pval+Allprice;
+            loadAllItem();
+            setTotal();
         }
-        OrderItemDetails.push(item);
-        loadAllItem();
-        bindRowClickEvents();
-        clickRemove();
-        setTotal();
-        clarItemfeilds();
     }else {
         alert("Qty not in stors..!");
     }
+});
 
-})
+function chechequal(qty,qtyonhand) {
+    if (qtyonhand>=qty){
+        return true;
+    }else {
+        return false;
+    }
+}
+
+function IDAvitility(itemid) {
+    for (let i of OrderItemDetails){
+        if (i.id == itemid){
+            return i;
+        }
+    }
+    return null;
+}
 
 function bindRowClickEvents() {
     $('#tblOrderItems>tr').click(function () {
