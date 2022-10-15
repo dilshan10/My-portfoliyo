@@ -170,7 +170,7 @@ $('#btn-clear').click(function () {
 });
 
 function ClearTextFieldsPlace() {
-    $('#Total,#SubTotal,#Balance,#Cash,#OrderID,#OrderDate,#CustNameOrder,#CustAddresOrder,#CustTellOrder,#ItemNameOrder,#QTYonHandOrder,#ItemPriceOrder,#OrderQTYOrder').val("");
+    $('#Total,#SubTotal,#Balance,#Cash,#OrderDate,#CustNameOrder,#CustAddresOrder,#CustTellOrder,#ItemNameOrder,#QTYonHandOrder,#ItemPriceOrder,#OrderQTYOrder').val("");
     $('#tblOrderItems').empty();
 }
 function CustIDClear() {
@@ -329,8 +329,6 @@ function updateQty() {
     let itemid = $('#selectItemID').val();
     let takeqty = $('#OrderQTYOrder').val();
 
-    console.log(itemid);
-    console.log(takeqty);
     for (let i of ItemDetails){
         if (i.id == itemid){
             let qty = parseInt(i.Qty);

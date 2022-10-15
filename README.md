@@ -22,6 +22,6 @@ this site wasbuilt using Github Pages;
 # Pos System-CSS Frameworks
 <ul>
 <li><a href="https://www.gloomaps.com/gfwygGKtHd">site map</a></li>
-<li><a href="https://wireframe.cc/u8aW0g">wireframe</a></li>
+<li><a href="https://wireframe.cc/wh2oWz">wireframe</a></li>
 <li><a href="https://www.figma.com/file/2b4jJAVsJhMASnf1rjLFYp/Pos-System?node-id=0%3A1">mockup</a></li>
-</ul> 
+</ul>

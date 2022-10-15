@@ -31,7 +31,7 @@ function checkValiedCustomer() {
             setTextError(validation.field,validation.error);
         }
     }
-    setButtonState(error);
+    setButtonState1(error);
 }
 
 function check(regex,field) {
@@ -66,10 +66,10 @@ function focusText(field) {
     field.focus();
 }
 
-function setButtonState(value){
+function setButtonState1(value){
     if (value>0){
         $("#btnCustomer").attr('disabled',true);
-        $("#btnCusDelete").attr('disabled',true);
+        $("#btnCusDelete").attr('disabled',true)
         $("#btnUpdate").attr('disabled',true);
     }else{
         $("#btnCustomer").attr('disabled',false);
@@ -112,7 +112,7 @@ $('#btnCustomer').click(function () {
     getLastID();
 });
 
-function bindRowClickEvents() {
+function bindRowClickEvents1() {
     $("#tblCustomer1>tr").click(function () {
         let id = $(this).children(":eq(0)").text();
         let name = $(this).children(":eq(1)").text();
