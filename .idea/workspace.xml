@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b144a01d-24f2-4583-8bb9-b0064653fb1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/JS/knight Rider/assets/js/jquery-3.6.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/JS/knight Rider/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/JS/SPA/Controller/CustomerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/JS/SPA/Controller/CustomerController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/JS/SPA/Controller/PlaceOrderController.js" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/JS/SPA/Controller/PlaceOrderController.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,8 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -42,14 +42,20 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assigments/JS/knight Rider/assets/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -59,11 +65,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\My-portfoliyo\assigments\JS\knight Rider\assets\js" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\js" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\images" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\asserts\CSS" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\Frameworks\pos\asserts\js" />
-      <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\JS\Calculator\asserts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\JS\Calculator\asserts\image" />
@@ -72,18 +78,6 @@
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\Frameworks\case_1" />
       <recent name="C:\Users\pc\Desktop\programming fundamental\Internet Technologies\My-Portfoliyo\assigments\CSS\Basics" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/My-Portfoliyo/index.html" useBuiltInWebServerPort="true">
@@ -95,6 +89,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_MODE" value="false" />
   </component>
@@ -210,24 +205,24 @@
       <workItem from="1665731985118" duration="8901000" />
       <workItem from="1665758259866" duration="5988000" />
       <workItem from="1665803347038" duration="1467000" />
+      <workItem from="1668181207013" duration="3522000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

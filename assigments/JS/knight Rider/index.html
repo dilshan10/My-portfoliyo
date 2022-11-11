@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KNIGHT RIDER</title>
+    <style>
+
+        body{
+            background: black;
+        }
+
+        section:nth-child(1)>h1:nth-child(1){
+            color: white;
+            position: absolute;
+            margin: auto;
+            right: 0;
+            left: 0;
+            top: 150px;
+            width: max-content;
+            height: max-content;
+        }
+
+        #container{
+            height: 50px;
+            width: 700px;
+            position: absolute;
+            margin: auto;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            display: flex;
+        }
+
+        #container>div{
+            width: 150px;
+            height: 50px;
+        }
+
+        #BtnContainer{
+            width: 250px;
+            height: 30px;
+            background: black;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            bottom: 200px;
+        }
+
+        #BtnContainer>button{
+            background: white;
+            height: 100%;
+            width: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+
+        <h1>!...KNIGHT RIDER...!</h1>
+
+        <div id="container">
+        </div>
+
+        <div id="BtnContainer">
+            <button id="btnstart">START</button>
+            <button id="btnStop">STOP</button>
+        </div>
+    </section>
+</body>
+<script src="assets/js/jquery-3.6.1.min.js"></script>
+<script>
+    var knightRider = {
+        count:0,
+        temArray:[],
+        leftColorArray: ['black', 'black', 'black', 'black', 'black', 'black',"#b9a7a7", '#a67d7d', '#966161', '#bc6060', '#b84747', '#dc4141'],
+        rightColorArray: ['black', 'black', 'black', 'black', 'black', 'black','#dc4141','#b84747','#bc6060','#966161', '#a67d7d',"#b9a7a7" ],
+        animateLeft: function () {
+            var lastColor = this.temArray.pop();
+            this.temArray.unshift(lastColor);
+        },
+        animateRight:function (){
+            var firstColor = this.temArray.shift();
+            this.temArray.push(firstColor);
+        },
+        animate:function (){
+            this.count++;
+            if(this.count<=this.leftColorArray.length){
+                this.temArray=this.leftColorArray;
+                this.animateLeft();
+            }else{
+                if (this.count>=(this.rightColorArray.length*2)){
+                    this.count=0;
+                }
+                this.temArray=this.rightColorArray;
+                this.animateRight();
+            }
+        }
+    }
+
+    renderDivs();
+
+    function renderDivs() {
+        $('#container').empty();
+        for (let i = 0; i < (knightRider.temArray.length) / 2; i++) {
+            $('#container').append(`<div style="background-color: ${knightRider.temArray[i]}"></div>`);
+        }
+        knightRider.animate();
+    }
+
+    var id=setInterval(renderDivs, 90);
+
+    $('#btnstart').click(function (){
+        clearInterval(id)
+        id=setInterval(renderDivs, 90);
+    })
+
+    $('#btnStop').click(function (){
+        clearInterval(id);
+    });
+
+</script>
+</html>
