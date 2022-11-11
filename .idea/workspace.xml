@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b144a01d-24f2-4583-8bb9-b0064653fb1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/JS/knight Rider/assets/js/jquery-3.6.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/JS/knight Rider/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/JS/game/assets/css/GameStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/JS/game/assets/images/2109.w026.n002.819B.p1.819.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/JS/game/assets/images/78812fd262025d24e53452a1307bbb6d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assigments/JS/game/assets/images/8c5628fb166d24655c9c1b87ef1d403c2a7f8f24.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigments/JS/game/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/JS/game/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -205,7 +207,7 @@
       <workItem from="1665731985118" duration="8901000" />
       <workItem from="1665758259866" duration="5988000" />
       <workItem from="1665803347038" duration="1467000" />
-      <workItem from="1668181207013" duration="3522000" />
+      <workItem from="1668181207013" duration="5379000" />
     </task>
     <servers />
   </component>
