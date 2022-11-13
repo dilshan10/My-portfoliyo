@@ -15,5 +15,51 @@ body>section:nth-child(1){
     position: absolute;
     margin: auto;
     bottom: 50px;
-    left: 300px;
+    left: 300px ;
+    animation-name: MY-ANIMATION;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes MY-ANIMATION {
+    0%{
+        background: url("../cracter moments/png/Idle__000.png");
+        background-size: cover;
+    }
+    12%{
+        background: url("../cracter moments/png/Idle__001.png");
+        background-size: cover;
+    }
+    25%{
+        background: url("../cracter moments/png/Idle__002.png");
+        background-size: cover;
+    }
+    35% {
+        background: url("../cracter moments/png/Idle__003.png");
+        background-size: cover;
+    }
+    40%{
+        background: url("../cracter moments/png/Idle__004.png");
+        background-size: cover;
+    }
+    55%{
+        background: url("../cracter moments/png/Idle__005.png");
+        background-size: cover;
+    }
+    60%{
+        background: url("../cracter moments/png/Idle__006.png");
+        background-size: cover;
+    }
+    75%{
+        background: url("../cracter moments/png/Idle__007.png");
+        background-size: cover;
+    }
+    88%{
+        background: url("../cracter moments/png/Idle__008.png");
+        background-size: cover;
+    }
+    100%{
+        background: url("../cracter moments/png/Idle__009.png");
+        background-size: cover;
+    }
 }
