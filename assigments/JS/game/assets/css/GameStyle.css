@@ -1,5 +1,19 @@
 body{
-    height: 95vh;
+    margin: 0;
+}
+body>section:nth-child(1){
+    height: 97vh;
     background: url("../images/2109.w026.n002.819B.p1.819.jpg");
     background-size: 135%;
+}
+
+#CHARACTER{
+    height: 199px;
+    width: 105px;
+    background: url("../cracter moments/png/Idle__000.png");
+    background-size: cover;
+    position: absolute;
+    margin: auto;
+    bottom: 50px;
+    left: 300px;
 }
