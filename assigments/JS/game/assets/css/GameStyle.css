@@ -7,59 +7,38 @@ body>section:nth-child(1){
     background-size: 135%;
 }
 
-#CHARACTER{
-    height: 199px;
-    width: 105px;
-    background: url("../cracter moments/png/Idle__000.png");
-    background-size: cover;
+body>section:nth-child(1)>div:nth-child(1){
+    width: 50vw;
+    height: 6vw;
     position: absolute;
     margin: auto;
-    bottom: 50px;
-    left: 300px ;
-    animation-name: MY-ANIMATION;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
+    top: 5vw;
+    left: 0;
+    right: 0;
 }
-@keyframes MY-ANIMATION {
-    0%{
-        background: url("../cracter moments/png/Idle__000.png");
-        background-size: cover;
-    }
-    12%{
-        background: url("../cracter moments/png/Idle__001.png");
-        background-size: cover;
-    }
-    25%{
-        background: url("../cracter moments/png/Idle__002.png");
-        background-size: cover;
-    }
-    35% {
-        background: url("../cracter moments/png/Idle__003.png");
-        background-size: cover;
-    }
-    40%{
-        background: url("../cracter moments/png/Idle__004.png");
-        background-size: cover;
-    }
-    55%{
-        background: url("../cracter moments/png/Idle__005.png");
-        background-size: cover;
-    }
-    60%{
-        background: url("../cracter moments/png/Idle__006.png");
-        background-size: cover;
-    }
-    75%{
-        background: url("../cracter moments/png/Idle__007.png");
-        background-size: cover;
-    }
-    88%{
-        background: url("../cracter moments/png/Idle__008.png");
-        background-size: cover;
-    }
-    100%{
-        background: url("../cracter moments/png/Idle__009.png");
-        background-size: cover;
-    }
+body>section:nth-child(1)>div:nth-child(1)>h2{
+    color: red;
+    width: fit-content;
+    height: fit-content;
+    font-size: 5.5vw;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+body>section:nth-child(1)>div:nth-child(2){
+    background: white;
+    height: 10vw;
+    width: 10vw;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 100%;
+    background: url("../images/pngtree-vector-play-icon-png-image_1572584.jpg");
+    background-size: cover;
 }
