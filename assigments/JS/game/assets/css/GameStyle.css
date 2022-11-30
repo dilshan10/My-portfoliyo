@@ -28,8 +28,7 @@ body>section:nth-child(1)>div:nth-child(1)>h2{
     top: 0;
     bottom: 0;
 }
-body>section:nth-child(1)>div:nth-child(2){
-    background: white;
+body>section:nth-child(1)>a:nth-child(2)>div:nth-child(1){
     height: 10vw;
     width: 10vw;
     position: absolute;
@@ -41,4 +40,10 @@ body>section:nth-child(1)>div:nth-child(2){
     border-radius: 100%;
     background: url("../images/pngtree-vector-play-icon-png-image_1572584.jpg");
     background-size: cover;
+}
+
+body>section:nth-child(1)>a:nth-child(2)>div:nth-child(1):hover{
+    height: 11vw;
+    width: 11vw;
+    border-color: red;
 }
