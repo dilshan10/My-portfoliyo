@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b144a01d-24f2-4583-8bb9-b0064653fb1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assigments/JS/game/pages/firstRound.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assigments/JS/game/pages/firstRoundCSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/JS/game/assets/css/GameStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/JS/game/assets/css/GameStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigments/JS/game/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/JS/game/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigments/JS/game/assets/js/CharacterScrpt.js" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/JS/game/assets/js/CharacterScrpt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigments/JS/game/pages/firstRound.html" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/JS/game/pages/firstRound.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigments/JS/game/pages/firstRoundCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/assigments/JS/game/pages/firstRoundCSS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +222,7 @@
       <workItem from="1669265574544" duration="4430000" />
       <workItem from="1669777597101" duration="241000" />
       <workItem from="1669788261124" duration="47000" />
-      <workItem from="1669816192137" duration="3613000" />
+      <workItem from="1669816192137" duration="5380000" />
     </task>
     <servers />
   </component>

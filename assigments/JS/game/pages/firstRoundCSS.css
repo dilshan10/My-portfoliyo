@@ -6,11 +6,9 @@ body>section:nth-child(1){
     background: url("../assets/images/2109.w026.n002.819B.p1.819.jpg");
     background-size: 135%;
 }
-body>section:nth-child(1)>div:nth-child(1){
+body>section:nth-child(1)>img:nth-child(1){
     height: 15vw;
     width: 7.9vw;
-    background: url("../assets/cracter moments/png/Idle__000.png");
-    background-size: cover;
     position: absolute;
     margin: auto;
     top: 26vw;
